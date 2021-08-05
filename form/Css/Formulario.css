@@ -5,7 +5,7 @@ body{
     width: 40%;
     height: auto;
     margin: auto;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/form1.png");
+    background-image: url("https://imagizer.imageshack.com/img923/9728/0pGsoS.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     grid-area: form;
@@ -20,7 +20,7 @@ form{
     width: 90%;
     height: 85%;
     margin: auto;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/papel.png");
+    background-image: url("https://imagizer.imageshack.com/img922/6093/hCtPSp.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 14%;
@@ -260,7 +260,7 @@ background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/aprobado
     width: 120px;
 
 height: 120px;
-background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/NEGADO.png");
+background-image: url("https://imagizer.imageshack.com/img923/7835/CDL6UO.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -270,7 +270,7 @@ background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/NEGADO.p
     width: 120px;
 
 height: 120px;
-background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/aprobado.png");
+background-image: url("https://imagizer.imageshack.com/img923/3775/85lCOd.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -280,7 +280,7 @@ background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/aprobado
     width: 120px;
 
 height: 120px;
-background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/sello.png");
+background-image: url("https://imagizer.imageshack.com/img922/3221/b78Ad6.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -294,7 +294,7 @@ background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/sello.pn
     grid-template-areas: "nav nav nav";
     grid-template-rows: auto; 
     grid-template-columns: 1fr 1fr 1fr;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/banner.png");
+    background-image: url("https://imagizer.imageshack.com/img923/6352/5odoUn.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
@@ -311,7 +311,7 @@ nav{
     background-color: #0b2228ff;
     width: 95%;
     height: auto;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/fondo.png");
+    background-image: url("https://imagizer.imageshack.com/img923/5489/vOAP3D.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -341,7 +341,7 @@ nav{
     grid-area: Logo;
     width: 100%;
     height: 140%;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/Logo.png");
+    background-image: url("https://imagizer.imageshack.com/img922/5548/1RZSwJ.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 17%;
