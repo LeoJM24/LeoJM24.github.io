@@ -5,7 +5,7 @@ body{
     background-color: #0b2228ff;
     width: 95%;
     height: 1000px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/fondo.png");
+    background-image: url("https://imagizer.imageshack.com/img923/5489/vOAP3D.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ body{
     grid-template-areas: "lamp1 int puerta lamp2";
     grid-template-rows: auto; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/pared.png");
+    background-image: url("https://imagizer.imageshack.com/img923/9303/BR7psz.png");
     background-size: 100% 100%;
     
     z-index: 1;
@@ -35,7 +35,7 @@ body{
     grid-area: lamp1;
     width: 180px;
     height: 300px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lamprendida.png");
+    background-image: url("https://imagizer.imageshack.com/img922/5971/ng5VJl.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -43,13 +43,13 @@ body{
     grid-area: lamp1;
     width: 180px;
     height: 300px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lampagada.png");
+    background-image: url("https://imagizer.imageshack.com/img924/4509/tkQDb0.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .int{
     grid-area: int;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/prendido.png");
+    background-image: url("https://imagizer.imageshack.com/img922/7625/5cLjGp.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 30px;
@@ -59,7 +59,7 @@ body{
 }
 .int1{
     grid-area: int;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/apagado.png");
+    background-image: url("https://imagizer.imageshack.com/img922/957/y2U91j.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 30px;
@@ -71,7 +71,7 @@ body{
     grid-area: escenario;
     width: 80%;
     height: 300px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/pared2.png");
+    background-image: url("https://imagizer.imageshack.com/img923/3590/kIANdt.png");
     margin: auto;
     display: grid;
     grid-template-areas: "lamp1 int puerta lamp2";
@@ -86,7 +86,7 @@ body{
     grid-area: puerta;
     width: 135px;
     height: 250px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/puerta1.png");
+    background-image: url("https://imagizer.imageshack.com/img924/8545/OfIDwG.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 50px;
@@ -96,7 +96,7 @@ body{
     grid-area: puerta;
     width: 135px;
     height: 250px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/abiertaon.png");
+    background-image: url("https://imagizer.imageshack.com/img924/6255/jVtJSf.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 50px;
@@ -106,7 +106,7 @@ body{
     grid-area: puerta;
     width: 135px;
     height: 250px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/abiertaoff.png");
+    background-image: url("https://imagizer.imageshack.com/img922/4831/OLYNyo.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 50px;
@@ -116,7 +116,7 @@ body{
     grid-area: puerta;
     width: 135px;
     height: 250px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/puertaoff.png");
+    background-image: url("https://imagizer.imageshack.com/img922/6573/LCtpry.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 50px;
@@ -126,7 +126,7 @@ body{
     grid-area: lamp2;
     width: 180px;
     height: 300px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lamprendida.png");
+    background-image: url("https://imagizer.imageshack.com/img922/5971/ng5VJl.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -134,7 +134,7 @@ body{
     grid-area: lamp2;
     width: 180px;
     height: 300px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lampagada.png");
+    background-image: url("https://imagizer.imageshack.com/img924/4509/tkQDb0.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -179,7 +179,7 @@ nav{
     margin: auto;
     width: 30%;
     height: 30px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/fb.png");
+    background-image: url("https://imagizer.imageshack.com/v2/70x70q90/c/923/B3XL4P.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -189,7 +189,7 @@ nav{
     margin: auto;
     width: 100%;
     height: 100%;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/face.png");
+    background-image: url("https://imageshack.com/a/img922/4767/V7ajSD.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -216,7 +216,7 @@ nav{
     margin: auto;
     width: 20%;
     height: 20px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/ws.png");
+    background-image: url("https://imagizer.imageshack.com/img922/6801/jEkCxm.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -226,7 +226,7 @@ nav{
     margin: auto;
     width: 30%;
     height: 30px;
-    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/in.png");
+    background-image: url("https://imagizer.imageshack.com/img924/6661/Wot14E.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     cursor: pointer;
