@@ -1,0 +1,332 @@
+body{
+    background-color: black;
+}
+.Contenedor{
+    background-color: #0b2228ff;
+    width: 95%;
+    height: 1000px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                        "separar separar separar"
+                        "escenario escenario escenario";
+    grid-template-rows: auto auto;
+}
+.escenario{
+    grid-area: escenario;
+    width: 80%;
+    height: 300px;
+    
+    margin: auto;
+    display: grid;
+    grid-template-areas: "lamp1 int puerta lamp2";
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/pared.png");
+    background-size: 100% 100%;
+    
+    z-index: 1;
+}
+.lamp1{
+    grid-area: lamp1;
+    width: 180px;
+    height: 300px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lamprendida.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.lamp1off{
+    grid-area: lamp1;
+    width: 180px;
+    height: 300px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lampagada.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.int{
+    grid-area: int;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/prendido.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+.int1{
+    grid-area: int;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/apagado.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+.onoff{
+    grid-area: escenario;
+    width: 80%;
+    height: 300px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/pared2.png");
+    margin: auto;
+    display: grid;
+    grid-template-areas: "lamp1 int puerta lamp2";
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    background-size: 100% 100%;
+    
+    z-index: 1;
+}
+.puerta{
+    grid-area: puerta;
+    width: 135px;
+    height: 250px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/puerta1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.puertabierta{
+    grid-area: puerta;
+    width: 135px;
+    height: 250px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/abiertaon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.puertaoff{
+    grid-area: puerta;
+    width: 135px;
+    height: 250px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/abiertaoff.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.puerta1{
+    grid-area: puerta;
+    width: 135px;
+    height: 250px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/puertaoff.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.lamp2{
+    grid-area: lamp2;
+    width: 180px;
+    height: 300px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lamprendida.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.lamp2off{
+    grid-area: lamp2;
+    width: 180px;
+    height: 300px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/lampagada.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.Header{
+    grid-area: header;
+    width: 100%;
+    height: 300px;
+    background-color: #550044ff;
+    margin: 0;
+    display: grid;
+    grid-template-areas: "nav nav nav";
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "Inicio Registro Logo Contacto Newletter";
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.separar{
+    width: 100%;
+    height: 40px;
+    grid-area: separar;
+    background-color: rgb(16, 51, 59);
+    z-index: 0;
+    margin-top: -20%;
+    display: grid;
+    grid-template-areas: "fb ws in sp pagina pagina pagina";
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.fb{
+    grid-area: fb;
+    margin: auto;
+    width: 30%;
+    height: 30px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/fb.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.fb:hover{
+    
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/face.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ws:hover{
+    
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/whats.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.in:hover{
+   
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/insta.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ws{
+    grid-area: ws;
+    margin: auto;
+    width: 20%;
+    height: 20px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/ws.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.in{
+    grid-area: in;
+    margin: auto;
+    width: 30%;
+    height: 30px;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/in.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+footer{
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(16, 51, 59);
+}
+.sp{
+    grid-area: sp;
+    width: 100%;
+    height: 40px;
+}
+.pagina a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.pagina {
+    grid-area: pagina;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.Inicio{
+    grid-area: Inicio;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+.Registro{
+    grid-area: Registro;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+
+.Logo{
+    grid-area: Logo;
+    width: 100%;
+    height: 140%;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/Logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 17%;
+    user-select: none;
+    z-index: 2;
+}
+.Contacto{
+    grid-area: Contacto;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+.Newletter{
+    grid-area: Newletter;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 100%;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+.Inicio:hover, .Contacto:hover, .Registro:hover, .Newletter:hover{
+    background-color: rgb(104, 2, 83);
+}

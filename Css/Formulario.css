@@ -1,0 +1,382 @@
+body{
+    background-color: black;
+}
+.formulario{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/form1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    grid-area: form;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+form{
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/papel.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 14%;
+    display: grid;
+    grid-template-areas:"logos logos logos" 
+                        "datos datos datos"
+                        "fecha fecha fecha"
+                        "sexo sexo sexo"
+                        "terminos terminos terminos"
+                        "aprobado boton sello";
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-template-rows: 0.3fr 1fr 1fr 0.3fr 0.3fr 1fr;
+                        gap: 10px;
+}
+.Boton{
+    grid-area: boton;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.RegistroB{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+.logo{
+    grid-area: logos;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.sexo{
+    margin: auto;
+    grid-area:sexo;
+    width: 90%;
+    border: black 1px solid;
+    height: auto;
+    display: grid;
+    grid-template-areas: "LMujer Mujer"
+                    "LHombre Hombre"
+                    
+                    ;
+                    gap: 10px;
+                    padding: 10px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr  ;
+}
+.LMujer{
+    grid-area:LMujer;
+}
+.Mujer{
+    grid-area:Mujer;
+    margin-left: 50%;
+}
+.LHombre{
+    grid-area:LHombre;
+}
+.Hombre{
+    grid-area:Hombre;
+    margin-left: 50%;
+}
+.terminos{
+    margin: auto;
+    grid-area:terminos;
+    width: 90%;
+    border: black 1px solid;
+    height: auto;
+    display: grid;
+    grid-template-areas: "LTerminos Terminos"
+                    
+                    ;
+                    gap: 10px;
+                    padding: 10px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr  ;
+}
+.Terminos1{
+    grid-area: LTerminos;
+}
+.Terminos{
+    grid-area: Terminos;
+    margin-left: 50%;
+}
+.fecha{
+    margin: auto;
+    grid-area:fecha;
+    width: 90%;
+    border: black 1px solid;
+    height: auto;
+    display: grid;
+    grid-template-areas: "LDia Dia"
+                    "LMes Mes"
+                    "LAño Año"
+                    ;
+                    gap: 10px;
+                    padding: 10px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr ;
+}
+.datos{
+    margin: auto;
+grid-area:datos;
+width: 90%;
+border: black 1px solid;
+height: auto;
+display: grid;
+padding: 10px;
+
+grid-template-areas: "LNombre Nombre"
+                    "LApellido Apellido"
+                    "LCorreo Correo"
+                    "LContraseña Contraseña"
+                    "LRepetir Repetir";
+                    gap: 10px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.falta[type="text"]{
+    border: 1px solid red;
+}
+.falta[type="email"]{
+    border: 1px solid red;
+}
+.falta[type="password"]{
+    border: 1px solid red;
+}
+.falta[type="number"]{
+    border: 1px solid red;
+}
+.rojos{
+    border: 1px solid red;
+}
+
+.LNombre{
+    grid-area:LNombre;
+}
+.Nombre{
+    grid-area:Nombre;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.LApellido{
+    grid-area:LApellido;
+}
+.Apellido{
+    grid-area:Apellido;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.LCorreo{
+    grid-area:LCorreo;
+}
+.Correo{
+    grid-area:Correo;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.LContraseña{
+    grid-area:LContraseña;
+}
+.Contraseña{
+    grid-area:Contraseña;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.LRepetir{
+    grid-area:LRepetir;
+}
+.Repetir{
+    grid-area:Repetir;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.LDia{
+    grid-area:LDia;
+}
+.Dia{
+    grid-area:Dia;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.LMes{
+    grid-area:LMes;
+}
+.Mes{
+    grid-area:Mes;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.LAño{
+    grid-area:LAño;
+}
+.Año{
+    grid-area:Año;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.aprobadonegado{
+    margin: auto;
+    grid-area:aprobado;
+    width: 100px;
+display: none;
+height: 100px;
+background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/aprobado.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.negado{
+    margin: auto;
+    grid-area:aprobado;
+    width: 120px;
+
+height: 120px;
+background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/NEGADO.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.aprobado{
+    margin: auto;
+    grid-area:aprobado;
+    width: 120px;
+
+height: 120px;
+background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/aprobado.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sello{
+    margin: auto;
+    grid-area:sello;
+    width: 120px;
+
+height: 120px;
+background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/sello.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.Header{
+    grid-area: header;
+    width: 100%;
+    height: 300px;
+    background-color: #550044ff;
+    margin: 0;
+    display: grid;
+    grid-template-areas: "nav nav nav";
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "Inicio Logo Contacto Newletter";
+    grid-template-rows: auto; 
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.Contenedor{
+    background-color: #0b2228ff;
+    width: 95%;
+    height: auto;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/fondo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                        "form form form";
+    grid-template-rows: auto auto;
+}
+.Inicio{
+    grid-area: Inicio;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+
+
+.Logo{
+    grid-area: Logo;
+    width: 100%;
+    height: 140%;
+    background-image: url("C:/Users/LeoJM/Desktop/Diseño gráfico/Imagenes/Logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 17%;
+    user-select: none;
+    z-index: 2;
+}
+.Contacto{
+    grid-area: Contacto;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+.Newletter{
+    grid-area: Newletter;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 100%;
+    text-decoration: none;
+    color: blanchedalmond;
+    position: sticky;
+    top: 300px;
+    user-select: none;
+}
+.Inicio:hover, .Contacto:hover, .Registro:hover, .Newletter:hover{
+    background-color: rgb(104, 2, 83);
+}
