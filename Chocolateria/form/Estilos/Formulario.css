@@ -1,0 +1,560 @@
+body{
+    background-image: url("https://imagizer.imageshack.com/img924/3750/M4b39a.png");
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.deslizar{
+    width: 100%;
+    height: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+    background-image: url("https://imagizer.imageshack.com/img924/5137/0dMZLb.png");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+}
+.MenuPrincip{
+    background-color: rgb(248, 248, 248);
+    position: sticky;
+    top:0px;
+    background-color: #290101ff;
+    display: grid;
+    grid-template-areas: "Principal Precios Productos ";
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 40px;
+    border: none;
+    
+}
+.separar{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #290101ff;
+}
+.Principal{
+    grid-area: Principal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+.Principal:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Precios:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Productos:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Contáctanos:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Precios{
+    grid-area: Precios;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+.Productos{
+    grid-area: Productos;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+.Contáctanos{
+    grid-area: Contacto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+.contenedor{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: "logo"
+                        "datos"
+                        "Vdatos"
+                        "sexo"
+                        "Vsexo"
+                        "edad"
+                        "Vedad"
+                        "terminos"
+                        "Vterminos"
+                        "Enviar"
+                        "choco";
+   
+    grid-gap: 40px;
+    
+}
+input[class="Enviar"]:hover{
+    background-color: rgba(182, 117, 171, 0.582);
+}
+input[class="Enviar"]{
+    grid-area: Enviar;
+    width: 20%;
+    margin: auto;
+    height: 50px;
+    border-radius: 18px;
+    border: solid 1px rgb(248, 96, 223);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgba(182, 132, 174, 0.582);
+    color: rgb(255, 255, 255);
+}
+.imagenPrincipal{
+    grid-area: logo;
+    width: 300px;
+    height: 300px;
+    
+    margin: auto;
+    padding: 10px;
+    background-image: url("https://imagizer.imageshack.com/img923/6194/ebK6YD.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.contenerDatos{
+    border-radius: 25px;
+    grid-area: datos;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "LNombre"
+                        "Nombre"
+                        "LApellido"
+                        "Apellido"
+                        "LCorreo"
+                        "Correo"
+                        "LContraseña"
+                        "Contraseña";
+                        gap: 10px;
+}
+.DatosRojos{
+    
+    border: solid rgb(250, 0, 0) 4px;
+   
+  
+}
+.textoEdad{
+    border-radius: 25px;
+    grid-area: Vedad;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoEdad1{
+    border-radius: 25px;
+    grid-area: Vedad;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoDatos{
+    border-radius: 25px;
+    grid-area: Vdatos;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoDatos1{
+    border-radius: 25px;
+    grid-area: Vdatos;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoSexo{
+    border-radius: 25px;
+    grid-area: Vsexo;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoSexo1{
+    border-radius: 25px;
+    grid-area: Vterminos;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoTerminos{
+    border-radius: 25px;
+    grid-area: Vterminos;
+    width: 50%;
+    height: auto;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textoTerminos1{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.671);
+    grid-area: Vterminos;
+    width: 50%;
+    height: auto;
+    border: solid rgb(139, 248, 96) 3px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(139, 248, 96);
+}
+label{
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+}
+.LNombre{
+grid-area: LNombre;
+font-size: 25px;
+color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.Nombre{
+    grid-area: Nombre;
+}
+.LApellido{
+    grid-area: LApellido;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.Apellido{
+    grid-area: Apellido;
+}
+.LCorreo{
+    grid-area: LCorreo;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.Correo{
+    grid-area: Correo;
+}
+.LContraseña{
+    grid-area: LContraseña;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.Contraseña{
+    grid-area: Contraseña;
+}
+.LMujer{
+grid-area: LMujer;
+font-size: 25px;
+margin: auto;
+color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.LHombre{
+    grid-area: LHombre;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.Hombre{
+    grid-area: Hombre;
+  margin: auto;
+}
+.Mujer{
+    grid-area: Mujer;
+    margin: auto;
+}
+.contenerSexo{
+    border-radius: 25px;
+    grid-area: sexo;
+    width: 50%;
+    height: 60px;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "LMujer Mujer LHombre Hombre";
+    grid-template-columns: 1fr 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+}
+.contenerSexo1{
+    border-radius: 25px;
+    grid-area: sexo;
+    width: 50%;
+    height: 60px;
+    border: solid rgb(255, 0, 0) 4px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "LMujer Mujer LHombre Hombre";
+    grid-template-columns: 1fr 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+}
+.contenerEdad{
+    border-radius: 25px;
+    grid-area: edad;
+    width: 50%;
+    height: 100px;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "Dia Mes Año"
+                        "iDia IMes IAño";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+}
+.contenerEdad1{
+    border-radius: 25px;
+    grid-area: edad;
+    width: 50%;
+    height: 100px;
+    border: solid rgb(248, 0, 0) 4px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "Dia Mes Año"
+                        "iDia IMes IAño";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+}
+.LDia{
+    grid-area: Dia;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.LMes{
+    grid-area: Mes;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.LAño{
+    grid-area: Año;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.616) 2px 2px;
+}
+.Dia{
+grid-area: iDia;
+width: 100%;
+}
+.Mes{
+    grid-area: IMes;
+    width: 100%;
+}
+.Año{
+    grid-area: IAño;
+    width: 100%;
+}
+input[type="text"]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(248, 96, 223) 2px;
+    border-radius: 25px;
+    height: 25px;
+    outline: none;
+}
+
+.falta[type="text"]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(255, 8, 0) 4px;
+    border-radius: 25px;
+    height: 25px;
+    outline: none;
+}
+.falta1[type="password"]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(255, 8, 0) 4px;
+    border-radius: 25px;
+    height: 25px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.falta2[type="email"]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(255, 8, 0) 4px;
+    border-radius: 25px;
+    height: 25px;
+    outline: none;
+}
+.falta3[type="number"]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(255, 8, 0) 4px;
+    border-radius: 25px;
+    height: 25px;
+    outline: none;
+}
+input[type="email"]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(248, 96, 223) 2px;
+    border-radius: 25px;
+    height: 25px;
+    outline: none;
+}
+input[class="Contraseña" ]{
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(248, 96, 223) 2px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    height: 25px;
+    outline: none;
+}
+
+input[type="number"]{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    background-color: rgba(247, 101, 179, 0.11);
+    border: solid rgb(248, 96, 223) 2px;
+    border-radius: 25px;
+    
+}
+.contenerTerminos{
+    border-radius: 25px;
+    grid-area: terminos;
+    width: 50%;
+    height: 100px;
+    border: solid rgb(248, 96, 223) 2px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "Terminos Caja"
+                        ;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-rows:  1fr ;
+}
+.contenerTerminos1{
+    border-radius: 25px;
+    grid-area: terminos;
+    width: 50%;
+    height: 100px;
+    border: solid rgb(250, 8, 0) 4px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "Terminos Caja"
+                        ;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-rows:  1fr ;
+}
+.Terminos{
+    grid-area: Caja;
+    margin: auto;
+    
+}
+.LTerminos{
+    grid-area: Terminos;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(255, 16, 215);
+    text-shadow: rgba(0, 0, 0, 0.486) 2px 2px;
+}
+.Nombre::placeholder, .Apellido::placeholder, .Contraseña::placeholder, .Correo::placeholder{
+    color: rgb(255, 16, 215);
+}
+
+.Terminos input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+.chocolate{
+    margin: 0;
+    z-index: 1;
+    grid-area:choco;
+    margin-bottom: -10%;
+    margin-left: -50%;
+    width: 200%;
+    height: 350px;
+    background-image: url("https://imagizer.imageshack.com/img924/575/3DlsyJ.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

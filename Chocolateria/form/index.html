@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="Estilos/Formulario.css">
+    <link rel="stylesheet" href="Estilos/FormularioResponsive.css">
+    
+</head>
+<body>
+    <div class="deslizar">
+        <nav class="MenuPrincip">
+            <a class="Principal" href="https://leojm24.github.io/Chocolateria">Principal</a>
+            <a class="Precios" href="#Contenido1">Precios</a>
+            <a class="Productos" href="#Contenido1"> Productos</a>
+            
+        </nav>
+    </div>
+    <div class="separar"></div>
+    <form action="" class="formulario" id="formulario">
+    <div class="contenedor" id="contenedor">
+    
+        <div class="imagenPrincipal">
+            <img src="" alt="">
+        </div>
+        <div class="contenerDatos" id="Datos">
+            <label for="Nombre" class="LNombre">Nombre:</label>
+            <input type="text" class="Nombre" name="Nombre" id="Nombre" placeholder="Ingresa tu nombre">
+            <label for="Apellido" class="LApellido">Apellido:</label>
+            <input type="text" class="Apellido" name="Apellido" id="Apellido" placeholder="Ingresa tu apellido">
+            <label for="Contraseña" class="LContraseña">Contraseña:</label>
+            <input type="password" name="Contraseña" id="Contraseña" class="Contraseña" placeholder="Ingresa contraseña">
+            <label for="Correo" class="LCorreo">Correo:</label>
+            <input type="email" name="Correo" id="Correo" class="Correo" placeholder="Ingresa tu correo">
+        </div>
+        <div class="textoDatos" id="textoDatos">Completa tus datos</div>
+        <div class="contenerSexo" id="contenerSexo">
+            <label for="Mujer" class="LMujer">Mujer:</label>
+            <input type="radio" name="Mujer" id="Mujer" class="Mujer">
+            <label for="Hombre" class="LHombre">Hombre:</label>
+            <input type="radio" name="Hombre" id="Hombre" class="Hombre">
+
+        </div>
+        <div class="textoSexo" id="textoSexo">Especifica tu género.</div>
+        <div class="contenerEdad" id="contenerEdad">
+            <label for="Dia" class="LDia">Dia:</label>
+            <input type="number" name="Dia" id="Dia" class="Dia">
+            <label for="Mes" class="LMes">Mes:</label>
+            <input type="number" name="Mes" id="Mes" class="Mes">
+            <label for="Año" class="LAño">Año:</label>
+            <input type="number" name="Año" id="Año" class="Año">
+        </div>
+        <div class="textoEdad" id="textoEdad">Especifica tu fecha de nacimiento, por favor</div>
+        <div class="contenerTerminos" id="contenerTerminos">
+            <label for="Terminos" class="LTerminos">Términos y condiciones:</label>
+            <input type="checkbox" name="Terminos" id="Terminos" class="Terminos">
+        </div>
+        <div class="textoTerminos" id="textoTerminos">Acepta los términos y condiciones para continuar</div>
+        <input type="submit" value="Registrarse" class="Enviar">
+        <div class="chocolate"></div>
+    </div>
+    </form>
+    <script language="JavaScript" type="text/javascript">
+     
+        var bPreuntar = true;
+         
+         window.onbeforeunload = preguntarAntesDeSalir;
+          
+         function preguntarAntesDeSalir()
+         {
+           if (bPreguntar)
+             return "¿Seguro que quieres salir?";
+         }
+     
+     
+     
+      
+    
+    </script>
+    <script src="javascript/Formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,540 @@
+
+
+body{
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.reloj{
+    
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.432);
+    display: grid;
+    grid-template-areas: "texto1 texto2 texto3 texto4"
+                        "hora minutos segundos ampm";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 3px;
+}
+.texto1{
+    grid-area: texto1;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+    width: 50px;
+}
+.texto2{
+    grid-area: texto2;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+    width: 50px;
+}
+.texto3{
+    grid-area: texto3;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+    width: 50px;
+}
+.texto4{
+    grid-area: texto4;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    height: 20px;
+    width: 50px;
+}
+.hora{
+    grid-area: hora;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    width: 50px;
+}
+.minutos{
+    grid-area: minutos;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    width: 50px;
+}
+.segundos{
+    grid-area:segundos;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    width: 50px;
+}
+.ampm{
+    grid-area:ampm;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    width: 50px;
+}
+
+.Redes{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.ContenerBusqueda{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: -155%;
+    transition: ease all 0.5s;
+}
+.Trasladar{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    transition: ease all 0.5s;
+}
+.ContenerBusqueda input[type="search"]{
+    background-color: #fdfdfd80;
+    width: 60%;
+    height: 70%;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0;
+    margin-right: 50px;
+    text-align: center;
+}
+input[type="search"]::placeholder{
+    color: black;
+}
+.Boton{
+width: 38px;
+height: 38px;
+background-color: rgb(230, 230, 230);
+border-radius: 3px;
+border: solid black 2px;
+cursor: pointer;
+background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/Icono.png");
+background-size: 80% 80%;
+background-position: center;
+background-repeat: no-repeat;
+}
+.Boton:hover{
+    background-color: rgb(255, 255, 255);
+}
+.botonDelado{
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/Icono2.png");
+}
+.botonDelado:hover{
+    background-color: rgb(82, 82, 82);
+}
+
+.Buscar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(216, 212, 212);
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Sociales{
+    width: 150px;
+    height: 39px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: black 1px solid;
+    float: left;
+}
+.MenuPrincip{
+    background-color: rgb(248, 248, 248);
+    position: sticky;
+    top:0px;
+    background-color: #290101ff;
+    display: grid;
+    grid-template-areas: "Principal Precios Productos Contacto";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 40px;
+    border: none;
+}
+.Principal{
+    grid-area: Principal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+}
+.Principal:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Precios:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Productos:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Contáctanos:hover{
+    background-color: rgba(184, 179, 179, 0.267);
+    border-radius: 20px;
+}
+.Precios{
+    grid-area: Precios;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+}
+.Productos{
+    grid-area: Productos;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+}
+.Contáctanos{
+    grid-area: Contacto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Ravie";
+    height: 40px;
+}
+.Imagenes{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+    border: #290101ff solid 2px;
+    border-radius: 10px;
+    height: 90%;
+    display: grid;
+    grid-template-areas: "Imagen Imagen"
+                        "C1 C1";
+                        grid-template-rows: 1fr 0.2fr;
+          grid-area: Imagen1;              
+}
+.Imagenes2{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+    border: #290101ff solid 2px;
+    border-radius: 10px;
+    height: 90%;
+    display: grid;
+    grid-template-areas: "Imagen Imagen"
+                        "C1 C1";
+                        grid-template-rows: 1fr 0.2fr;
+                        grid-area: Imagen2;             
+}
+.Imagenes3{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+    border: #290101ff solid 2px;
+    border-radius: 10px;
+    height: 90%;
+    display: grid;
+    grid-template-areas: "Imagen Imagen"
+                        "C1 C1";
+                        grid-template-rows: 1fr 0.2fr;
+                        grid-area: Imagen3;            
+}
+.n1{
+    
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n2{
+    
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n3{
+   
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n4{
+    
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c4.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n5{
+    
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c5.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n6{
+   
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c6.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n7{
+    
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c7.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n8{
+    
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c8.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.n9{
+   
+    grid-area: Imagen;
+    width: 90%;
+    height: 90%;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    transition: ease all 1s;
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/c9.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.cambiar1{
+grid-area: C1;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 60%;
+height: 80%;
+color: rgb(255, 255, 255);
+margin: auto;
+font-size: 60px;
+    font-family: "Vladimir Script";
+}
+
+
+.deslizar{
+    width: 100%;
+    height: 600px;
+    
+    background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/Nav.png");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+}
+.contenido1{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.253);
+    display: grid;
+    grid-template-areas: "Imagen1 Imagen2 Imagen3"
+                        "video video video";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.fm-video .vjs-play-progress,
+.fm-video .vjs-volume-level{
+    background: red;
+}
+.vjs-icon-placeholder{
+    color: rgb(255, 5, 5);
+    background-color: rgb(255, 0, 0);
+}
+.video{
+    grid-area:video;
+    margin: auto;
+    width: 50%;
+    height:  90%;
+    border-radius: 10px;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+.carrusel{
+    width: 100%;
+    background-color: #290101ff;
+    padding: 10px;
+    
+    background-size: 100% 100%;
+}
+.container h1{
+    color: blanchedalmond;
+    font-size: 60px;
+    font-family: "Vladimir Script";
+}
+.container h2{
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: "Arial";
+}
+.carousel{
+    min-width: 500px;
+    min-height: 500px;
+    
+}
+
+ .carousel .carousel-item{
+    width: 500px;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    user-select: none;
+    color: white;
+}
+.col{
+    height: auto;
+        }
+
+.carousel .carousel-item img{
+    width: 500px;
+    height: 500px;
+  position: absolute;
+  z-index: -1;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.carousel  .indicators .indicator-item{
+    background-color: black;
+    margin: 0 20px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color:#290101ff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
