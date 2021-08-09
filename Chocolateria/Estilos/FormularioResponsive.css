@@ -1,0 +1,397 @@
+@media screen and (max-width:800px){
+
+    .contenedor{
+        margin: auto;
+        width: 80%;
+        height: auto;
+        padding: 15px;
+        margin-top: 50px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: "logo"
+                        "datos"
+                        "Vdatos"
+                        "sexo"
+                        "Vsexo"
+                        "edad"
+                        "Vedad"
+                        "terminos"
+                        "Vterminos"
+                        "Enviar"
+                        "choco";
+                            
+        grid-gap: 15px;
+        
+    }
+    .contenerDatos{
+        border-radius: 25px;
+        grid-area: datos;
+        width: 70%;
+        height: auto;
+        border: solid rgb(248, 96, 223) 2px;
+        margin: auto;
+        padding: 10px;
+        display: grid;
+        grid-template-areas: "LNombre"
+                            "Nombre"
+                            "LApellido"
+                            "Apellido"
+                            "LCorreo"
+                            "Correo"
+                            "LContraseña"
+                            "Contraseña";
+                            gap: 10px;
+    }
+    .DatosRojos{
+    
+        border: solid rgb(250, 0, 0) 4px;
+       
+      
+    }
+    .Contraseña{
+        grid-area: Contraseña;
+    }
+    .imagenPrincipal{
+        grid-area: logo;
+        width: 150px;
+        height: 150px;
+        
+        margin: auto;
+        padding: 10px;
+        background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/Dona.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .separar{
+        margin: 0;
+        width: 100%;
+        height: 20px;
+        background-color: #290101ff;
+    }
+    .deslizar{
+        width: 100%;
+        height: 280px;
+        border: 1px solid rgba(0, 0, 0, 0.068);
+        background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/Nav1.png");
+        background-repeat: no-repeat;
+        
+        background-size: 100% 100%;
+    }
+    .MenuPrincip{
+        background-color: rgb(248, 248, 248);
+        position: sticky;
+        top:0px;
+        background-color: #290101ff;
+        display: grid;
+        grid-template-areas: "Principal Precios Productos ";
+        grid-template-columns: 1fr 1fr 1fr ;
+        height: 30px;
+        border: none;
+        
+    }
+    .Principal{
+        grid-area: Principal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+        height: 30px;
+        text-decoration: none;
+        color: ghostwhite;
+    }
+    .Principal:hover{
+        background-color: rgba(184, 179, 179, 0.267);
+        border-radius: 20px;
+    }
+    .Precios:hover{
+        background-color: rgba(184, 179, 179, 0.267);
+        border-radius: 20px;
+    }
+    .Productos:hover{
+        background-color: rgba(184, 179, 179, 0.267);
+        border-radius: 20px;
+    }
+    .Contáctanos:hover{
+        background-color: rgba(184, 179, 179, 0.267);
+        border-radius: 20px;
+    }
+    .Precios{
+        grid-area: Precios;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        height: 30px;
+        text-decoration: none;
+        color: ghostwhite;
+    }
+    .Productos{
+        grid-area: Productos;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        height: 30px;
+        text-decoration: none;
+        color: ghostwhite;
+    }
+    .Contáctanos{
+        grid-area: Contacto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+        height: 30px;
+        text-decoration: none;
+        color: ghostwhite;
+        
+    }
+    a{
+        font-size: 10px;
+    }
+    .LNombre{
+        grid-area: LNombre;
+        font-size: 14px;
+        color: rgb(255, 16, 215);
+            text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+        }
+        .LApellido{
+            grid-area: LApellido;
+            font-size: 14px;
+            color: rgb(255, 16, 215);
+            text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+        }
+        .LCorreo{
+            grid-area: LCorreo;
+            font-size: 14px;
+            color: rgb(255, 16, 215);
+            text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+        }
+        .LContraseña{
+            grid-area: LContraseña;
+            font-size: 14px;
+            color: rgb(255, 16, 215);
+            text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+        }
+        .LMujer{
+            grid-area: LMujer;
+            font-size: 14px;
+            margin: auto;
+            color: rgb(255, 16, 215);
+            text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+            }
+            .LHombre{
+                grid-area: LHombre;
+                margin: auto;
+                font-size: 14px;
+                color: rgb(255, 16, 215);
+                text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+            }
+            .LDia{
+                grid-area: Dia;
+                margin: auto;
+                font-size: 14px;
+                color: rgb(255, 16, 215);
+                text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+            }
+            .LMes{
+                grid-area: Mes;
+                margin: auto;
+                font-size: 14px;
+                color: rgb(255, 16, 215);
+                text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+            }
+            .LAño{
+                grid-area: Año;
+                margin: auto;
+                font-size: 14px;
+                color: rgb(255, 16, 215);
+                text-shadow: rgba(0, 0, 0, 0.616) 1px 1px;
+            }
+            .LTerminos{
+                grid-area: Terminos;
+                margin: auto;
+                font-size: 14px;
+                color: rgb(255, 16, 215);
+                text-shadow: rgba(0, 0, 0, 0.486) 1px 1px;
+            }
+            .contenerTerminos{
+                border-radius: 25px;
+                grid-area: terminos;
+                width: 70%;
+                height: 50px;
+                border: solid rgb(248, 96, 223) 2px;
+                margin: auto;
+                padding: 10px;
+                display: grid;
+                grid-template-areas: "Terminos Caja"
+                                    ;
+                grid-template-columns: 1fr 0.2fr;
+                grid-template-rows:  1fr ;
+            }
+            .contenerTerminos1{
+                border-radius: 25px;
+                grid-area: terminos;
+                width: 70%;
+                height: 50px;
+                border: solid rgb(255, 1, 1) 4px;
+                margin: auto;
+                padding: 10px;
+                display: grid;
+                grid-template-areas: "Terminos Caja"
+                                    ;
+                grid-template-columns: 1fr 0.2fr;
+                grid-template-rows:  1fr ;
+            }
+            .contenerEdad{
+                border-radius: 25px;
+                grid-area: edad;
+                width: 70%;
+                height: auto;
+                border: solid rgb(248, 96, 223) 2px;
+                margin: auto;
+                padding: 10px;
+                display: grid;
+                grid-template-areas: "Dia" 
+                                   "iDia"
+                                    "Mes"
+                                    "IMes" 
+                                    "Año"
+                                    "IAño";
+                grid-template-columns: 1fr ;
+                grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
+            }
+            .contenerEdad1{
+                border-radius: 25px;
+                grid-area: edad;
+                width: 70%;
+                height: auto;
+                border: solid rgb(255, 1, 1) 4px;
+                margin: auto;
+                padding: 10px;
+                display: grid;
+                grid-template-areas: "Dia" 
+                                   "iDia"
+                                    "Mes"
+                                    "IMes" 
+                                    "Año"
+                                    "IAño";
+                grid-template-columns: 1fr ;
+                grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
+            }
+            input[class="Enviar"]{
+                grid-area: Enviar;
+                width: 50%;
+                margin: auto;
+                height: 50px;
+                border-radius: 18px;
+                border: solid 1px rgb(248, 96, 223);
+                font-size: 20px;
+                cursor: pointer;
+                background-color: rgba(182, 132, 174, 0.582);
+                color: rgb(255, 255, 255);
+            }
+            .contenerSexo{
+                border-radius: 25px;
+                grid-area: sexo;
+                width: 70%;
+                height: 30px;
+                border: solid rgb(248, 96, 223) 2px;
+                margin: auto;
+                padding: 10px;
+                display: grid;
+                grid-template-areas: "LMujer Mujer LHombre Hombre";
+                grid-template-columns: 1fr 0.5fr 1fr 0.5fr;
+                grid-template-rows: 1fr;
+            }
+            .contenerSexo1{
+                border-radius: 25px;
+                grid-area: sexo;
+                width: 70%;
+                height: 30px;
+                border: solid rgb(255, 1, 1) 4px;
+                margin: auto;
+                padding: 10px;
+                display: grid;
+                grid-template-areas: "LMujer Mujer LHombre Hombre";
+                grid-template-columns: 1fr 0.5fr 1fr 0.5fr;
+                grid-template-rows: 1fr;
+            }
+            input[type="number"]{
+                width: 30%;
+                height: 30px;
+                margin: auto;
+                border-radius: 10px;
+                outline: none;
+                text-align: center;
+                background-color: rgba(247, 101, 179, 0.11);
+                border: solid rgb(248, 96, 223) 2px;
+                border-radius: 25px;
+                margin-bottom: 10px;
+            }
+            .chocolate{
+                margin: 0;
+                z-index: 1;
+                grid-area:choco;
+                margin-bottom: -10%;
+                margin-left: -30%;
+                width: 150%;
+                height: 180px;
+                background-image: url("C:/Users/LeoJM/Desktop/Chocolateria/Fotos/Sin-título-1.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            input[type="text"]{
+                text-align: center;
+                background-color: rgba(247, 101, 179, 0.11);
+                border: solid rgb(248, 96, 223) 2px;
+                border-radius: 25px;
+                height: 25px;
+                outline: none;
+                width: 70%;
+                margin: auto;
+            }
+            input[type="email"]{
+                text-align: center;
+                background-color: rgba(247, 101, 179, 0.11);
+                border: solid rgb(248, 96, 223) 2px;
+                border-radius: 25px;
+                height: 25px;
+                outline: none;
+                width: 70%;
+                margin: auto;
+            }
+            input[class="Contraseña" ]{
+                text-align: center;
+                background-color: rgba(247, 101, 179, 0.11);
+                border: solid rgb(248, 96, 223) 2px;
+                border-radius: 25px;
+                margin-bottom: 30px;
+                height: 25px;
+                outline: none;
+                width: 70%;
+                margin: auto;
+            }
+            .falta1[type="password"]{
+                text-align: center;
+                background-color: rgba(247, 101, 179, 0.11);
+                border: solid rgb(255, 8, 0) 4px;
+                border-radius: 25px;
+                height: 25px;
+                outline: none;
+                margin-bottom: 30px;
+                width: 70%;
+                grid-area: Contraseña;
+                margin: auto;
+            }
+            .Nombre::placeholder, .Apellido::placeholder, .Contraseña::placeholder, .Correo::placeholder{
+                color: rgb(255, 16, 215);
+            }
+}
