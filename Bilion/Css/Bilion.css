@@ -182,6 +182,9 @@ header{
     user-select: none;
     cursor: pointer;
 }
+.status{
+    width: auto;
+}
 .apertura:hover{
     background-color: rgb(18, 51, 61);
 }
