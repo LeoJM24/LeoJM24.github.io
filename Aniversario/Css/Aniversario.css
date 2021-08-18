@@ -19,6 +19,7 @@ height: 500px;
 background-image: url("https://imageshack.com/i/pmTMK41Qp");
 background-size: 100% 100%;
 background-repeat: no-repeat;
+border: 1px solid black;
 }
 nav{
     width: 100%;
@@ -49,6 +50,7 @@ height: 2000px;
     width: 80%;
     height: 400px;
     margin: auto;
+    border: 1px solid black;
 }
 .texto{
     width: 90%;
@@ -61,4 +63,9 @@ height: 2000px;
     padding: 50px;
     color: rgb(75, 75, 75);
     font-size: 20px;
+}
+.Menu{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
