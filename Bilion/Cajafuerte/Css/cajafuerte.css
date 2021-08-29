@@ -15,6 +15,7 @@ grid-template-areas: "nav"
                     grid-template-columns: 1fr;
                     grid-template-rows: 0.3fr 1fr;
                     gap: 10px;
+                    
 }
 .contenedores2{
     margin-top: 100px;
