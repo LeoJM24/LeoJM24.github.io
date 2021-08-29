@@ -1,0 +1,432 @@
+@media screen and (max-width:800px){
+    *{
+        margin: 0;
+    }
+    body{
+        background-image: url("https://imagizer.imageshack.com/img923/1258/ha14Zn.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .criptocontenedor{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        display: grid;
+        grid-template-areas: "banner"
+                            "imagen"
+                            "descripcion1"
+                            "descripcion"
+                            
+                            "datos"
+                            "ge";
+                          
+                            
+    }
+    
+    .ge{
+        background-color: rgba(0, 0, 0, 0.116);
+        grid-area:ge;
+        margin: auto;
+        gap: 20px;
+        width: 80%;
+        height: auto;
+        display: grid;
+        grid-template-areas: "t1" "t2" "t3" "t4"
+                           
+                            "t5 "
+                            "t6 "
+                            "t7";
+                            
+                            grid-template-columns:  1fr;
+    }
+    .Lcant{
+        grid-area:t1;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 30px;
+        padding: 15px;
+        user-select: none;
+        cursor: pointer;
+    }
+    .cant{
+        grid-area:t2;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        font-size: 40px;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.377);
+        color: white;
+        font-size: 40px;
+        border-radius: 30px;
+    }
+    .Lmayus{
+        grid-area:t3;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 30px;
+        padding: 15px;
+        user-select: none;
+        cursor: pointer;
+    }
+    .mayus{
+        grid-area:t4;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    .Generar{
+        grid-area:t5;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        height: 40px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.452);
+        color: white;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+    .generada{
+        grid-area:t6;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: auto;
+        height: 50px;
+        margin: auto;
+        outline: none;
+        border-radius: 10px;
+        background-color: rgba(15, 3, 3, 0.493);
+    }
+    
+    .Registro{
+        grid-area: t7;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 20%;
+        height: 40px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.452);
+        color: white;
+        font-size: 12px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    nav{
+        width: 100%;
+        display: grid;
+        grid-template-areas: "Inicio Iniciar Info";
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 35px;
+        background-color: rgba(26, 25, 25, 0.856);
+        position: sticky;
+        top: 0;
+    }
+    .datos{
+        background-image: url("https://imageshack.com/i/pnr3ObaQp");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-areas: "c1"
+                            "c2"
+                            "c3"
+                            "c4"
+                            "c5";
+                            grid-template-columns: 1fr ;
+                            grid-template-rows: 1fr 1fr 1fr ;
+    }
+    .CRepetir{
+        grid-area: c5;
+        display: grid;
+        grid-template-areas: "LRepetir"
+                            "Repetir"
+                            "Luzrepetir";
+                            width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .LRepetir{
+        grid-area: LRepetir;
+     margin: auto;
+     color: red;
+     font-size: 20px;
+     outline: none;
+     margin-bottom: -2%;
+     
+     background-color: rgba(255, 255, 255, 0.555);
+     border-radius: 20px;
+     padding: 5px;
+     width: 80%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     user-select: none;
+    }
+
+    .Repetir{
+        grid-area: Repetir;
+        width: 80%;
+        margin: auto;
+        border: 2px solid red;
+        background-color: rgba(0, 0, 0, 0.753);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+    }
+    .luzrepetir{
+        grid-area: Luzrepetir;
+    }
+    .CContra{
+        grid-area: c4;
+        display: grid;
+        grid-template-areas: "LContraseña"
+                            "Contraseña"
+                            "Luzcontra";
+                            width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .LContraseña{
+        grid-area: LContraseña;
+        margin: auto;
+     color: red;
+     font-size: 20px;
+     outline: none;
+     margin-bottom: -2%;
+     
+     padding: 5px;
+     width: 80%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     background-color: rgba(255, 255, 255, 0.555);
+     border-radius: 20px;
+     align-items: center;
+     cursor: pointer;
+     user-select: none;
+    }
+    .Contraseña{
+        grid-area: Contraseña;
+        width: 80%;
+        margin: auto;
+        border: 2px solid red;
+        background-color: rgba(0, 0, 0, 0.753);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+    }
+    .luzcontra{
+        grid-area: Luzcontra;
+    }
+    .CCorreo{
+        grid-area: c3;
+        display: grid;
+        grid-template-areas: "LCorreo"
+                            "Correo"
+                            "Luzcorreo";
+                            width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .LCorreo{
+        grid-area: LCorreo;
+        margin: auto;
+     color: red;
+     font-size: 20px;
+     outline: none;
+     margin-bottom: -2%;
+     
+     padding: 5px;
+     width: 80%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(255, 255, 255, 0.555);
+     border-radius: 20px;
+     cursor: pointer;
+     user-select: none;
+    }
+    .Correo{
+        grid-area: Correo;
+        width: 80%;
+        margin: auto;
+        border: 2px solid red;
+        background-color: rgba(0, 0, 0, 0.753);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+    }
+    .luzcorreo{
+        grid-area: Luzcorreo;
+    }
+    .CUsuario{
+        grid-area: c2;
+        display: grid;
+        grid-template-areas: "LUsuario"
+                            "Usuario"
+                            "Luzusuario";
+                            width: 100%;
+        height: 300px;
+        margin: auto;
+    }
+    .LUsuario{
+        grid-area:LUsuario;
+        margin: auto;
+     color: red;
+     font-size: 20px;
+     outline: none;
+     margin-bottom: -2%;
+     
+     padding: 5px;
+     width: 80%;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(255, 255, 255, 0.555);
+     border-radius: 20px;
+     cursor: pointer;
+     user-select: none;
+    }
+    .Usuario{
+        grid-area: Usuario;
+        width: 80%;
+        height: 40px;
+        border-radius: 20px;
+        margin: auto;
+        border: 2px solid red;
+        background-color: rgba(0, 0, 0, 0.753);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        outline: none;
+    }
+    .luzusuario{
+        grid-area:Luzusuario;
+    }
+    .criptologo{
+        grid-area: c1;
+        background-image: url("https://imagizer.imageshack.com/img923/1264/CCABVK.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 230px;
+        margin: auto;
+    }
+    .Inicio{
+    grid-area: Inicio;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    }
+    .Sesion{
+    grid-area: Iniciar;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    }
+    .Info{
+    grid-area: Info;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    }
+    .Inicio:hover, .Sesion:hover, .Info:hover{
+        background-color: black;
+    }
+    .banner{
+        background-image: url("https://imagizer.imageshack.com/img924/7779/br1ll8.png");
+    background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 250px;
+    }
+    .imagen{
+    grid-area: imagen;
+    background-image: url("https://imagizer.imageshack.com/img923/5866/RHDf5I.png");
+    background-size: 100% 100%;
+        background-repeat: no-repeat;
+    width: 200px;
+    margin: auto;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .descripcion1{
+    grid-area: descripcion1;
+    background-color: #280b21bf;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: wheat;
+    }
+    .descripcion{
+    grid-area: descripcion;
+    background-color: #280b21bf;
+    padding: 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+    color: wheat;
+    }
+}

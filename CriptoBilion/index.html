@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Criptobilion</title>
+    <link rel="stylesheet" href="Css/Cripto2.css">
+    <link rel="stylesheet" href="Css/Criptoresponsive.css">
+</head>
+<body>
+    <form action="" id="formulario">
+        
+    <div class="criptocontenedor">
+<div class="banner">
+    <nav>
+        <a class="Inicio" href="#">Inicio</a>
+        <a href="#" class="Sesion">Iniciar sesión</a>
+        <a href="#" class="Info">Información</a>
+        
+    </nav>
+</div>
+            <div class="imagen">
+
+            </div>
+            
+            <div class="descripcion1">
+                <h1>Registro Criptobilion</h1>
+            </div>
+            <div class="descripcion">
+               <h2> Bienvenido al sistema de criptomoneda Bilion. Este es un servicio gratuito que ofrece
+                nuestra entidad bancaria, en pro de impulsar y promover el uso de criptoactivos. 
+                
+                Por favor completa los campos solicitados a continuación. Una vez todos los campos estén
+                de color blanco, procede a crear tu criptoclave Bilion seleccionando cuántos dígitos quiere que contenga. </h2>
+            </div>
+            
+            <div class="datos" id="datos">
+                <div class="CUsuario">
+                <label for="Usuario" class="LUsuario" id="LUsuario" > VXN1YXJpbw==</label>
+                <input type="text" name="Usuario" placeholder="Usuario" id="Usuario" class="Usuario">
+                <div class="luzusuario"></div>
+                </div>
+                <div class="CCorreo">
+                <label for="Correo" class="LCorreo" id="LCorreo" >Q29ycmVvOg==</label>
+                <input type="email" name="Correo" placeholder="Correo" id="Correo" class="Correo">
+                <div class="luzcorreo"></div>
+                </div>
+                <div class="CContra">
+                <label for="Contraseña" class="LContraseña"  id="LContra">Q29udHJhc2XDsWE6</label>
+                <input type="password" name="Contraseña" id="Contraseña" placeholder="Contraseña" class="Contraseña">
+                <div class="luzcontra"></div>
+            </div>
+            <div class="CRepetir">
+                <label for="Repetir" class="LRepetir"  id="LRepetir">UmVwZXRpciBjbGF2ZQ==
+                </label>
+                <input type="password"  id="Repetir" name="Repetir" placeholder="Repetir contraseña" class="Repetir">
+                <div class="luzrepetir"></div>
+            </div>
+                <div class="criptologo"></div>
+                
+               
+                
+                
+                
+            </div>
+            <div class="ge" id="ge">
+                <label for="cant" id="Lcant" class="Lcant">Cantidad de dígitos:</label>
+                <input type="number" name="cant" id="cant" value="5" class="cant">
+                <label for="mayus" class="Lmayus">Quitar mayúsculas:</label>
+                <input type="checkbox" name="mayus" id="mayus" class="mayus">
+                <input type="button" value="Generar" class="Generar" id="GenerarC">
+                <input type="text" name="generada" id="generada" class="generada" readonly>
+                <input type="submit" value="Registrarse" class="Registro" id="Registro">
+            </div>
+    </div>
+   
+    </form>
+    <script src="Javascript/Bilion.js"></script>
+    <script src="Javascript/Cripto.js"></script>
+</body>
+</html>
