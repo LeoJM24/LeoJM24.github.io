@@ -127,7 +127,21 @@
         border-radius: 10px;
         background-color: rgba(15, 3, 3, 0.493);
     }
-    
+    .Copiada{
+        grid-area:t6;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: auto;
+        height: 50px;
+        color:yellowgreen;
+        font-size: 22px;
+        margin: auto;
+        outline: none;
+        border-radius: 10px;
+        background-color: rgba(15, 3, 3, 0.493);
+    }
     .Registro{
         grid-area: t7;
         display: flex;
