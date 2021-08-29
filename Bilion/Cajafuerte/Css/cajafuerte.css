@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("../Imagenes/cajafuerte.jpg");
+    background-attachment: fixed;
+}
+.contenedores1{
+width: 100%;
+height: auto;
+margin-bottom: 100px;
+display: grid;
+grid-template-areas: "nav"
+                    "logo";
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 0.3fr 1fr;
+                    gap: 10px;
+}
+.contenedores2{
+    margin-top: 100px;
+    width: 100%;
+height: 500px;
+margin: auto;
+display: grid;
+grid-template-areas:"text1" 
+                    "monto"
+                    "text2"
+                    "diferido";
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 0.3fr 1fr 0.3fr 1fr;
+                    gap: 10px;
+}
+.contenedores3{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-areas: "d1 d2 d3 d4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+.d1:hover, .d2:hover, .d3:hover, .d4:hover{
+    cursor: pointer;
+    background-color: rgb(48, 47, 47);
+    border-radius: 50%;
+}
+a:hover{
+    cursor: pointer;
+    background-color: rgb(48, 47, 47);
+    border-radius: 30px;
+}
+.d1{
+    margin: auto;
+    grid-area:d1;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    user-select: none;
+}
+.d2{
+    margin: auto;
+    grid-area:d2;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    user-select: none;
+}
+.d3{
+    margin: auto;
+    grid-area:d3;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    user-select: none;
+}
+.d4{
+    margin: auto;
+    grid-area:d4;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    user-select: none;
+}
+.ahorro{
+    grid-area: text1;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color:white;
+    font-size: 25px;
+    user-select: none;
+}
+.textdiferido{
+    grid-area: text2;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color:white;
+    font-size: 25px;
+    user-select: none;
+}
+.montototal{
+    grid-area:monto;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.384);
+    border: #00ff00ff 1px solid;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+}
+.diferido{
+    grid-area:diferido;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.384);
+    border: #00ff00ff 1px solid;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+}
+.logo{
+    width: 300px;
+    height: 360px;
+    background-image: url("../Imagenes/Bilion.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    grid-area: logo;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(24, 23, 23);
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: "Salir Historico Gestion";
+    grid-template-columns: 1fr 1fr 1fr;
+    position: sticky;
+    top: 0;
+}
+.Historico{
+ grid-area: Historico; 
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center; 
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ user-select: none;
+ cursor: pointer;
+}
+.Salir{
+ grid-area: Salir;  
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center; 
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ user-select: none;
+ cursor: pointer;
+}
+.Gestion{
+    grid-area: Gestion;
+    display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ user-select: none;
+ cursor: pointer; 
+}
