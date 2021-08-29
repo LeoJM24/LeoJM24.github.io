@@ -151,6 +151,7 @@ nav{
     text-align: center;
     user-select: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .star{
     background-image: url("https://imagizer.imageshack.com/img923/9037/q2NmGe.png");
@@ -184,6 +185,7 @@ nav{
     text-align: center;
     user-select: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .status{
     width: auto;
