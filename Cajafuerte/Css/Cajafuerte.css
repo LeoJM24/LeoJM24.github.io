@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-image: url("../Imagenes/cajafuerte.jpg");
+    background-image: url("https://imagizer.imageshack.com/img922/346/HRSdqm.jpg");
     background-attachment: fixed;
 }
 .contenedores1{
@@ -15,8 +15,6 @@ grid-template-areas: "nav"
                     grid-template-columns: 1fr;
                     grid-template-rows: 0.3fr 1fr;
                     gap: 10px;
-
-                    
 }
 .contenedores2{
     margin-top: 100px;
@@ -170,7 +168,7 @@ a:hover{
 .logo{
     width: 300px;
     height: 360px;
-    background-image: url("../Imagenes/Bilion.png");
+    background-image: url("https://imagizer.imageshack.com/img923/5866/RHDf5I.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: auto;
