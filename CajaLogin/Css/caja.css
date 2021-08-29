@@ -5,7 +5,7 @@ body{
     width: 50%;
     height: 800px;
     margin: auto;
-    background-image: url("../Imagenes/cajafuerte.jpg");
+    background-image: url("https://imagizer.imageshack.com/img922/346/HRSdqm.jpg");
     background-size: 50% 50%;
     display: grid;
     grid-template-areas: "logo"
@@ -17,7 +17,7 @@ body{
 }
 .logo{
 grid-area: logo;
-background-image: url("../Imagenes/Bilioooon.png");
+background-image: url("https://imagizer.imageshack.com/img923/4433/3NBHVh.png");
 background-size: 100% 100%;
 width: 200px;
 height: 200px;
