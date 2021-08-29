@@ -175,6 +175,7 @@
         text-align: center;
         user-select: none;
         cursor: pointer;
+        text-decoration: none;
     }
     .cajafuerte{
         grid-area: cajafuerte;
