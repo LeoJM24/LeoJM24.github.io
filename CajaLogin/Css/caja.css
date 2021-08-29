@@ -1,0 +1,206 @@
+body{
+    background-color: black;
+}
+.caja{
+    width: 50%;
+    height: 800px;
+    margin: auto;
+    background-image: url("../Imagenes/cajafuerte.jpg");
+    background-size: 50% 50%;
+    display: grid;
+    grid-template-areas: "logo"
+                            "panel"
+                            "descripcion";
+                            grid-template-rows: 1fr 1fr 1fr;
+                            grid-template-columns: 1fr;
+                            border-radius: 40px;
+}
+.logo{
+grid-area: logo;
+background-image: url("../Imagenes/Bilioooon.png");
+background-size: 100% 100%;
+width: 200px;
+height: 200px;
+margin: auto;
+}
+.panel{
+    grid-area: panel;
+    display: grid;
+    grid-template-areas: "visor teclado"
+                                    ;
+                            grid-template-rows: 1fr ;
+                            grid-template-columns: 1fr 1fr;
+}
+.descripcion{
+    grid-area: descripcion;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    color: white;
+}
+.visor{
+    grid-area: visor;
+    width: 70%;
+    height: 60px;
+    margin: auto;
+    background-color: #00ff00ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+.teclado{
+    padding: 10px;
+    grid-area: teclado;
+    display: grid;
+    grid-template-areas: "t1 t2 t3"
+                        "t4 t5 t6"
+                        "t7 t8 t9"
+                        "t0 tb0 tb0"
+                                    ;
+                            grid-template-rows: 1fr 1fr 1fr 1fr;
+                            grid-template-columns: 1fr 1fr 1fr;
+                            gap: 4px;
+}
+.t1:hover, .t2:hover, .t3:hover, .t4:hover, .t5:hover, .t6:hover, .t7:hover, .t8:hover, .t9:hover, .t0:hover, .borrar:hover{
+background-color: rgb(20, 20, 20);
+}
+.t1{
+grid-area: t7;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t2{
+grid-area: t8;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t3{
+grid-area: t9;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t4{
+grid-area: t4;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t5{
+grid-area: t5;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t6{
+grid-area: t6;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t7{
+grid-area: t1;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t8{
+grid-area: t2;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t9{
+grid-area: t3;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.t0{
+grid-area: t0;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
+.borrar{
+    grid-area: tb0;
+    display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+color: white;
+background-color: black;
+border-radius: 13px;
+cursor: pointer;
+user-select: none;
+}
