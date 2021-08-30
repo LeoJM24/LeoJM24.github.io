@@ -67,9 +67,9 @@ i.addEventListener("pointerleave", prueba)
 })
 
 BTNPers.addEventListener("click", () => {
-    location.href = ""
+    location.href = "https://leojm24.github.io/Cuentas/"
 })
 BTNEmpre.addEventListener("click", () => {
-    location.href = ""
+    location.href = "https://leojm24.github.io/Cuentas/"
 })
 
