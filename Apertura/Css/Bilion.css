@@ -28,7 +28,7 @@ header{
 }
 .elegir{
     grid-area: elegir;
-   background-image: url("../Imagenes/Fami.png");
+   background-image: url("https://imagizer.imageshack.com/img924/4765/9X9Jsd.png");
     background-size: 100% 100%;
     width: 90%;
     height: 400px;
@@ -40,7 +40,7 @@ header{
 }
 .soli{
     grid-area: soli;
-   background-image: url("../Imagenes/Punto.png");
+   background-image: url("https://imagizer.imageshack.com/img923/2760/Cw1zOY.png");
     background-size: 100% 100%;
     width: 90%;
     height: 400px;
@@ -48,7 +48,7 @@ header{
 }
 .empresarial{
     grid-area: empresarial;
-   background-image: url("../Imagenes/Empresarial.png");
+   background-image: url("https://imagizer.imageshack.com/img923/6232/QBYaYe.png");
     background-size: 100% 100%;
     width: 35%;
     height: 60%;
@@ -62,7 +62,6 @@ header{
     justify-content: center;
     text-align: center;
     margin-right: 90px;
-    box-shadow: rgba(0, 0, 0, 0.5) -3px 3px;
 }
 .empre{
     margin-top: 60%;
@@ -102,7 +101,7 @@ header{
 }
 .personal{
     grid-area: personal;
-   background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/Personal.png");
+   background-image: url("https://imagizer.imageshack.com/img924/5687/2ujc5a.png");
     background-size: 100% 100%;
     width: 35%;
     height: 60%;
@@ -116,11 +115,10 @@ header{
     justify-content: center;
     text-align: center;
     margin-left: 90px;
-    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px;
 }
 .Logo{
     grid-area: Logo;
-   background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/Bilion.png");
+   background-image: url("https://imagizer.imageshack.com/img923/5866/RHDf5I.png");
     background-size: 100% 100%;
     width: 100%;
     height: 650px;
@@ -128,11 +126,11 @@ header{
     z-index: 3;
 }
 .banner{
-    background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/banner.png");
+    background-image: url("https://imagizer.imageshack.com/img922/6496/TPZOGD.png");
     background-size: 100% 100%;
 }
 .gobierno{
-    background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/gobierno.png");
+    background-image: url("https://imagizer.imageshack.com/img922/371/YBOsCS.png");
     background-size: 100% 100%; 
 }
 nav{
@@ -156,7 +154,7 @@ nav{
     text-decoration: none;
 }
 .star{
-    background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/star.png");
+    background-image: url("https://imagizer.imageshack.com/img923/9037/q2NmGe.png");
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     width: 180px;
@@ -174,6 +172,8 @@ nav{
     text-align: center;
     user-select: none;
     cursor: pointer;
+    text-decoration: none;
+    
 }
 .cajafuerte{
     grid-area: cajafuerte;
@@ -185,7 +185,10 @@ nav{
     text-align: center;
     user-select: none;
     cursor: pointer;
-    z-index: 10;
+    text-decoration: none;
+}
+.status{
+    width: auto;
 }
 .apertura:hover{
     background-color: rgb(18, 51, 61);
