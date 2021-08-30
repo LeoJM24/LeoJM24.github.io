@@ -1,0 +1,308 @@
+@media screen and (max-width:800px){
+.bandos,  
+  header, footer{
+    background-color: rgb(233, 229, 229);
+}
+body{
+    background-color: #0b1728fb;
+    width: 100%;
+    margin: auto;
+}
+.contenedor{
+    display: grid;
+    grid-template-areas: "header header  "
+                        "bandos bandos "
+                        "submenu contenido  "
+                        
+                        " widget1 widget1 " 
+                        "widget2 widget2"
+                        "aside aside"
+                        "footer footer  ";
+grid-gap: 10px;
+grid-template-columns: repeat(2);
+
+grid-template-rows: minmax(200px, 200px) minmax(40px, 40px)  auto auto auto auto minmax(40px, 40px);
+grid-template-columns: 0.5fr  1fr ;
+width: 100%;
+margin: auto;
+}
+.bandos{
+    grid-area: bandos;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   height: 100px;
+    border-radius: 10px;
+    border: white 1px solid;
+    width: 80%;
+    margin: auto;
+    background-image: url("../Imagenes/unete.png");
+    background-size: 100% 100%;
+    box-shadow: #ffffff49 5px 5px ;
+    
+}
+.tarjeta1{
+    background-image: url("../Imagenes/tarjeta1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+}
+.tarjeta2{
+    background-image: url("../Imagenes/tarjeta2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+}
+aside{
+    grid-area: aside;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "asidecontent"
+                        "asidecontent2";
+    
+}
+.widget1{
+    grid-area: widget1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.widget2{
+    grid-area: widget2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenido{
+    grid-area: contenido;
+    
+}
+.texto2{
+    background-image: url("../Imagenes/texto.png");
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.texto{
+    margin: auto;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    color: #ffcc00ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.contenedor .submenu{
+    grid-area: submenu;
+    background-color:none;
+    width: 100px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "tienda"
+                        "creacion"
+                        "ropa"
+                        "armas";
+    margin: auto;
+    grid-template-rows: 35px 35px 35px 35px;
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    padding: 5px;
+    background-color: #d7e3f4ff;
+    color: #5599ffff;
+    margin: auto;
+    width: 90%;
+}
+.asidecontent{
+    margin: auto;
+    grid-area: asidecontent;
+    background-image: url("../Imagenes/hominum.png");
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.asidecontent2{
+    margin: auto;
+    grid-area: asidecontent2;
+    background-image: url("../Imagenes/tenebris.png");
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.tienda{
+    grid-area:tienda;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: #7f2affcc;
+}
+.creacion{
+    grid-area:creacion;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: #7f2affcc;
+}
+.ropa{
+    grid-area:ropa;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: #7f2affcc;
+}
+.armas{
+    grid-area:armas;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px black solid;
+    background-color: #7f2affcc;
+    font-family: arial bold;
+}
+header{
+        
+    display: grid;
+    grid-area:header;
+    grid-template-areas: "FOTO FOTO FOTO FOTO"
+                        "menus menus menus menus";
+    grid-template-columns: repeat(4);
+    grid-template-rows: repeat(2);
+    grid-template-rows: minmax(160px, 160px) auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    background-color: #d7e3f4ff;
+    padding: 0;
+}
+.FOTO{
+    grid-area: FOTO;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #0b1728fb;
+}
+.FOTO1{
+    
+   width: 90%;
+   height: 160px;
+    
+    background-image: url("../Imagenes/magicarf.png");
+    background-size: 100% 100%;
+    
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+    padding: 0;
+}
+
+
+ .INICIAR {
+ grid-area: INICIAR;
+ display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+}   
+.REGISTRARSE {
+    grid-area: REGISTRARSE;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.BUSCAR{
+    grid-area:BUSCAR;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    
+}
+.INICIO{
+    grid-area:INICIO;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+header .INICIAR a{
+    padding: 10px 40px;
+    text-decoration: none;
+    margin: auto;
+    
+    font-size: 10px;
+}
+header .BUSCAR a{
+    padding: 10px 30px;
+    text-decoration: none;
+    
+    font-size: 10px;
+}
+header .REGISTRARSE a{
+    padding: 10px 30px;
+    text-decoration: none;
+    
+    font-size: 10px;
+}
+header .INICIO a{
+    padding: 10px 30px;
+    text-decoration: none;
+    
+    font-size: 10px;
+}
+.menus{
+    font-size: 10px;
+    width: 90%;
+    grid-area: menus;
+    display: grid;
+    grid-template-areas: "INICIO REGISTRARSE INICIAR BUSCAR";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+}
+input[type="search"]{
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+}
