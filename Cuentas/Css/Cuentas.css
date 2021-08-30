@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-image: url("../Imagenes/Fondocripto.png");
+    background-image: url("https://imagizer.imageshack.com/img922/7029/FNhf2m.png");
     background-size: 100% 200%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@ body{
     width: 300px;
     height: 400px;
     margin: auto;
-    background-image: url("../Imagenes/Bilion.png");
+    background-image: url("https://imagizer.imageshack.com/img923/5866/RHDf5I.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 40px;
@@ -224,7 +224,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
 }
 .TextO{
-    background-image: url("../Imagenes/TextoMovimientos.png");
+    background-image: url("https://imagizer.imageshack.com/img922/5681/2noTlQ.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -246,7 +246,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/Resumen.png");
+    background-image: url("https://imagizer.imageshack.com/img922/8181/RcUWig.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -257,7 +257,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/mES.png");
+    background-image: url("https://imagizer.imageshack.com/img923/1963/jfYGFw.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -268,7 +268,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/Mes pasado.png");
+    background-image: url("https://imagizer.imageshack.com/img923/1262/7PkG41.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -279,7 +279,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/AÑO.png");
+    background-image: url("https://imagizer.imageshack.com/img923/3162/wjZNid.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -290,7 +290,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/IMPRHISTORIAL.png");
+    background-image: url("https://imagizer.imageshack.com/img924/7168/npllK9.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -301,7 +301,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/Convertbilion.png");
+    background-image: url("https://imagizer.imageshack.com/img922/6647/KcTGxw.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -312,7 +312,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/CREDITO.png");
+    background-image: url("https://imagizer.imageshack.com/img922/8854/mBbCRm.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -323,7 +323,7 @@ grid-template-rows: 0.2fr 0.1fr 1fr;
     border: 1px solid black;
     margin: auto;
     border-radius: 10px;
-    background-image: url("../Imagenes/SALIR.png");
+    background-image: url("https://imagizer.imageshack.com/img922/9766/cfOUxJ.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
