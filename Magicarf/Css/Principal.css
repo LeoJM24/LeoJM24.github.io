@@ -34,20 +34,20 @@ margin: auto;
     border: white 1px solid;
     width: 90%;
     margin: auto;
-    background-image: url("../Imagenes/unete.png");
+    background-image: url("https://imageshack.com/i/poB4TKYxp");
     background-size: 100% 100%;
     box-shadow: #ffffff49 5px 5px ;
     
 }
 .tarjeta1{
-    background-image: url("../Imagenes/tarjeta1.png");
+    background-image: url("https://imageshack.com/i/pngNQKh5p");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 320px;
     height: 400px;
 }
 .tarjeta2{
-    background-image: url("../Imagenes/tarjeta2.png");
+    background-image: url("https://imagizer.imageshack.com/img924/1287/qfDu0g.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 320px;
@@ -87,7 +87,7 @@ aside{
     
 }
 .texto2{
-    background-image: url("../Imagenes/texto.png");
+    background-image: url("https://imagizer.imageshack.com/img924/8452/EMzULi.png");
     margin: auto;
     width: 400px;
     height: 200px;
@@ -149,7 +149,7 @@ footer{
 .asidecontent{
     margin: auto;
     grid-area: asidecontent;
-    background-image: url("../Imagenes/hominum.png");
+    background-image: url("https://imagizer.imageshack.com/img924/6256/cr8ISz.png");
     width: 400px;
     height: 200px;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ footer{
 .asidecontent2{
     margin: auto;
     grid-area: asidecontent2;
-    background-image: url("../Imagenes/tenebris.png");
+    background-image: url("https://imagizer.imageshack.com/img924/400/vVuBj3.png");
     width: 400px;
     height: 200px;
     background-repeat: no-repeat;
