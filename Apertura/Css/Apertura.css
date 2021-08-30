@@ -1,0 +1,173 @@
+.informacion{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-areas:"ac ac ac" 
+                        "inf1 inf2 inf3"
+                        "dni dni dni";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 10px;
+}
+.acudir{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    grid-area: ac;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0b2128ff;
+    color: white;
+}
+.inf1{
+    grid-area:inf1;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(140, 156, 160);
+    box-shadow: black 3px 3px;
+    display: grid;
+    grid-template-areas: "req1"
+                        "i1";
+                        grid-template-rows: 0.3fr 1fr;
+}
+.inf2{
+    grid-area:inf2;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(140, 156, 160);
+    box-shadow: black 3px 3px;
+    display: grid;
+    grid-template-areas: "req2"
+                        "i2";
+                        grid-template-rows: 0.3fr 1fr;
+}
+.inf3{
+    grid-area:inf3;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(140, 156, 160);
+    box-shadow: black 3px 3px;
+    display: grid;
+    grid-template-areas: "req3"
+                        "i3";
+                        grid-template-rows: 0.3fr 1fr;
+}
+.req1{
+    grid-area: req1;
+    width: 120px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: -2%;
+    border-radius: 4px;
+    background-image: url("../Imagenes/REQUISITO.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.i1{
+    grid-area: i1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+.req2{
+    grid-area: req2;
+    width: 120px;
+    height: 100px;
+    margin: auto;
+    
+    border-radius: 4px;
+    background-image: url("../Imagenes/REQUISITO.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h2{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+li{
+    font-size: 14px;
+    gap: 5px;
+}
+.i2{
+    grid-area: i2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+.req3{
+    grid-area: req3;
+    width: 120px;
+    height: 100px;
+    margin: auto;
+    
+    border-radius: 4px;
+    background-image: url("../Imagenes/REQUISITO.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.i3{
+    grid-area: i3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+.inf2{
+    grid-area:inf2;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    
+}
+.inf3{
+    grid-area:inf3;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    
+}
+.dni{
+    grid-area: dni;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px black solid;
+    background-image: url("../Imagenes/dni.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}

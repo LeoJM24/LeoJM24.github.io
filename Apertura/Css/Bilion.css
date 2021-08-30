@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+}
+.Contenedor{
+    width: 100%;
+    display: grid;
+    grid-template-areas:"header Logo" 
+                        "elegir elegir"
+                        "soli soli";
+    grid-template-columns: 1fr 0.5fr;
+    
+    height: auto;
+    margin: auto;
+}
+header{
+    grid-area: header;
+    width: 116%;
+    height: 100%;
+   background-color: #0b2128ff;
+    margin: auto;
+    display: grid;
+    grid-template-areas:"gobierno"
+                        "estrellas"
+                        "banner"
+                        "menus" ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 0.5fr 4fr 0.5fr;
+}
+.elegir{
+    grid-area: elegir;
+   background-image: url("../Imagenes/Fami.png");
+    background-size: 100% 100%;
+    width: 90%;
+    height: 400px;
+    backface-visibility: hidden;
+    display: grid;
+    grid-template-areas:"empresarial personal";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+.soli{
+    grid-area: soli;
+   background-image: url("../Imagenes/Punto.png");
+    background-size: 100% 100%;
+    width: 90%;
+    height: 400px;
+    backface-visibility: hidden;
+}
+.empresarial{
+    grid-area: empresarial;
+   background-image: url("../Imagenes/Empresarial.png");
+    background-size: 100% 100%;
+    width: 35%;
+    height: 60%;
+    margin-bottom: -10%;
+    z-index: 3;
+    margin:auto;
+    border-radius: 30px;
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 90px;
+    box-shadow: rgba(0, 0, 0, 0.5) -3px 3px;
+}
+.empre{
+    margin-top: 60%;
+    font-family: Cooper ;
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pers{
+    margin-top: 60%; 
+    font-family: Cooper ;
+    background-color: black;
+    color: white;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.empre:hover{
+    margin-top: 60%;
+    font-family: Cooper ;
+    background-color: rgb(48, 44, 44);
+    color: white;
+    width: 60%;
+    height: 30px;
+}
+.pers:hover{
+    margin-top: 60%; 
+    font-family: Cooper ;
+    background-color: rgb(48, 44, 44);
+    color: white;
+    width: 60%;
+    height: 30px;
+}
+.personal{
+    grid-area: personal;
+   background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/Personal.png");
+    background-size: 100% 100%;
+    width: 35%;
+    height: 60%;
+    margin-bottom: -10%;
+    z-index: 3;
+    margin:auto;
+    border-radius: 30px;
+    border: 3px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px;
+}
+.Logo{
+    grid-area: Logo;
+   background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/Bilion.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 650px;
+    margin-bottom: -10%;
+    z-index: 3;
+}
+.banner{
+    background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/banner.png");
+    background-size: 100% 100%;
+}
+.gobierno{
+    background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/gobierno.png");
+    background-size: 100% 100%; 
+}
+nav{
+    grid-area: menus;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "apertura cripto cajafuerte";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.apertura{
+    grid-area:apertura;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.star{
+    background-image: url("C:/Users/LeoJM/Desktop/Bilion/Imagenes/star.png");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 40%;
+    margin: auto;
+    margin-top: 15px;
+}
+.cripto{
+    grid-area: cripto;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+.cajafuerte{
+    grid-area: cajafuerte;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    z-index: 10;
+}
+.apertura:hover{
+    background-color: rgb(18, 51, 61);
+}
+.cripto:hover{
+    background-color: rgb(18, 51, 61);
+}
+.cajafuerte:hover{
+    
+    background-color: rgb(18, 51, 61);
+    
+}
