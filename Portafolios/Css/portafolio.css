@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("../Imagenes/cajafuerte.jpg");
+    background-size: 30%;
+    background-attachment: fixed;
+}
+.contenedorprincipal{
+    
+    
+    width: 100%;
+    height: auto;
+}
+.contenedor{
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    height: auto;
+    display: grid;
+    grid-template-areas: "d1"
+                        "d2"
+                        "d3";
+}
+.d1{
+    grid-area: d1;
+    height: 250px;
+    width: 100%;
+    background-color: white;
+}
+.d2{
+    grid-area: d2;
+    height: 250px;
+    width: 100%;
+    background-image: url("../Imagenes/background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.presentar{
+  display: grid;
+  grid-template-areas: "logo texto caricatura";
+  grid-template-columns: 1fr 2fr 1fr;
+    margin: auto;
+    border: dashed  1px white;
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+.logo{
+    grid-area: logo;
+    background-image: url("../Imagenes/completo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    font-family: cooper;
+}
+.texto{
+    grid-area: texto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+}
+.caricatura{
+    grid-area: caricatura;
+    background-image: url("../Imagenes/griffin.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 120%;
+    height: 100%;
+    margin: auto;
+}
+.d3{
+    grid-area: d3;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: cooper;
+}
+.d4{
+    grid-area: d1;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-areas: "e1"
+                        "e2"
+                        "e3";
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+}
+.nav{
+    grid-area: e1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display:grid;
+    grid-template-areas: "idioma espacio descargar contacto rep";
+    grid-template-columns: 1fr 2.5fr 1fr 1fr 1fr;
+}
+.nav a{
+    color: rgb(218, 218, 218); 
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav a:hover{
+    background-color: rgb(31, 30, 30);
+}
+.idioma{
+    grid-area: idioma;
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-areas: "Español Ingles";
+    grid-template-columns: 1fr 1fr;
+}
+.Español{
+    grid-area: Español;
+    background-image: url("../Imagenes/español.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 36%;
+    margin: auto auto;
+}
+.Ingles{
+    grid-area: Ingles;
+    background-image: url("../Imagenes/inglés.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 36%;
+    margin: auto auto;
+}
+.Descarga{
+    grid-area: descargar;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.separar{
+    grid-area: espacio;
+    width: 100%;
+    height: 100%;
+}
+.Contacto{
+    grid-area: contacto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Repositorios{
+    grid-area: rep;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenida{
+    grid-area: e2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #d5f6ff9f;
+    width: 50%;
+    border-radius: 30px;
+    margin: auto;
+    height: 60%;
+    font-family: cooper;
+}
+.mitad1{
+    grid-area: e3;
+    display: grid;
+    grid-template-areas: "v1 logo1 v2";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mitad2{
+    grid-area: mitad2;
+    display: grid;
+    grid-template-areas: "v3 logo2 v4";
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+.logomitad2{
+    grid-area: logo2;
+    background-image: url("../Imagenes/mitad2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+.logomitad{
+    grid-area: logo1;
+    background-image: url("../Imagenes/mitad1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.d5{
+    grid-area: d2;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 250px;
+    bottom: 0px;
+    display: grid;
+    grid-template-areas: "mitad2"
+                        "carousel"
+                        ;
+    grid-template-rows: 1fr 1fr;
+}
+.carruselcontent{
+    grid-area: carousel;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.carruselcontent .container{
+    min-width: 100px;
+    min-height: 100px;
+    width: 100%;
+}
+.contenido{
+    height: 1000px;
+    width: 100%;
+  
+}
+.datos{
+    margin: auto;
+    width: 70%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.24);
+    display: grid;
+    grid-template-areas: "line1"
+                        "line2"
+                        "line3";
+                        grid-template-rows: 0.4fr 1fr 1fr;
+}
+.line1{
+    grid-area:line1;
+    display: grid;
+    grid-template-areas: "proy subs";
+    grid-template-columns: 1fr 0.3fr;
+    height: 100%;
+}
+.proyectos{
+    margin: auto;
+    margin-left: 57%;
+    grid-area: proy;
+}
+.submenu{
+    margin: auto;
+    margin-left: 70%;
+    grid-area: subs;
+}
+.line2{
+    grid-area:line2;
+    display: grid;
+    grid-template-areas: "p1 p2 p3 p4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 220px;
+    gap: 5px;
+}
+.proyecto1{
+    grid-area:p1;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid 1px #f16529ff;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+}
+.proyecto2{
+    grid-area:p2;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid 1px #f16529ff;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+}
+.proyecto3{
+    grid-area:p3;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid 1px #f16529ff;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+}
+.proyecto4{
+    grid-area:p4;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border: solid 1px #f16529ff;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+}
+.descripcion{
+    width: 100%;
+    height: 20%;
+    font-family: cooper;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f16529ff;
+    color: white;
+    font-size: 20px;
+}
+.line2 img{
+    width: 100%;
+    height: 60%;
+    margin: auto auto;
+}
+.line3{
+    grid-area:line3;
+    height: 100px;
+    display: grid;
+    grid-template-areas: "b1 b2 b3 b4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 180px;
+    gap: 5px;
+}
+.botones1{
+    grid-area: b1;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type="button"]{
+    width: 60%;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    border: solid 3px black;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    background-color: #1b95c1ff;
+}
+input[type="button"]:hover{
+   
+    background-color: rgb(23, 123, 160);
+}
+.botones2{
+    grid-area: b2;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.botones3{
+    grid-area: b3;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.botones4{
+    grid-area: b4;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.carruselcontent .container .carousel{
+    height: 125px;
+    width: 100%;
+}
+.carruselcontent .carousel .carousel-item{
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    user-select: none;
+    
+}
+.carruselcontent .carousel .indicators .indicator-item{
+    margin: 0 30px;
+    width: 8px;
+    height: 8px;
+    top: 5px;
+}
+.fm-video .vjs-play-progress,
+.fm-video .vjs-volume-level{
+    background: red;
+}
+.vjs-icon-placeholder{
+    color: rgb(255, 5, 5);
+    background-color: rgb(255, 0, 0);
+}
+.video{
+    grid-area:video;
+    margin: auto;
+    width: 70%;
+    height:  50%;
+    border-radius: 10px;
+}
