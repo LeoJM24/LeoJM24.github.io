@@ -9,13 +9,20 @@ body{
     background-size: 30%;
     background-attachment: fixed;
 }
+#particles-js{
+    width: 100%;
+    height: 100vh;
+  
+    position: fixed;
+}
 .contenedorprincipal{
-    
-    
+    position: relative;
+   
     width: 100%;
     height: auto;
 }
 .contenedor{
+    position: relative;
     width: 70%;
     margin: auto;
     background-color: black;
@@ -261,9 +268,10 @@ body{
 .contenido{
     height: 1000px;
     width: 100%;
-  
+  z-index: 99;
 }
 .datos{
+    z-index: 99;
     margin: auto;
     width: 70%;
     height: auto;
@@ -373,6 +381,9 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 180px;
     gap: 5px;
+}
+.contenido div{
+    z-index: 19;
 }
 .botones1{
     grid-area: b1;
