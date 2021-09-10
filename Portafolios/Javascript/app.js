@@ -1,3 +1,8 @@
+const botones = document.querySelectorAll("#line1 input")
+const arriba = document.getElementById("arriba");
+const mostrar = document.getElementById("mostrar");
+const recuadro = document.getElementById("ContactOcultar");
+const cerrar = document.getElementById("cerrar");
 particlesJS(
     {
         "particles": {
@@ -110,3 +115,70 @@ particlesJS(
         "retina_detect": true
       }
 )
+
+const ejecutar = (I) => {
+  switch(I.target.className){
+    case "btn1":
+      location.href = " https://github.com/LeoJM24/LeoJM24.github.io/tree/master/Magicarf"
+      
+    break
+    case "btn2":
+      location.href = "https://leojm24.github.io/Magicarf/ "
+      
+    break
+    case "btn3":
+      location.href = " https://github.com/LeoJM24/LeoJM24.github.io/tree/master/Chocolateria"
+      
+    break
+    case "btn4":
+      location.href = "https://leojm24.github.io/Chocolateria/ " 
+      
+    break
+    case "btn5":
+      location.href = " https://github.com/LeoJM24/LeoJM24.github.io/tree/master/HLeoJM"
+    break
+    case "btn6":
+      location.href = "https://leojm24.github.io/HLeoJM/ "
+    break
+    case "btn7":
+      location.href = "https://github.com/LeoJM24/LeoJM24.github.io/tree/master/Bilion "
+    break
+    case "btn8":
+      location.href = "https://leojm24.github.io/Bilion/ "
+     
+    break
+  }
+}
+
+botones.forEach((I) => {
+  I.addEventListener("click", ejecutar)
+})
+
+window.onscroll = () => {
+  let irarriba = window.scrollY;
+  if(irarriba >= 300){
+    arriba.className ="arriba";
+  }
+  else{
+    arriba.className ="ocultar";
+  }
+};
+mostrar.addEventListener("click", () => {
+  
+if(recuadro.className == "Contactoocultar"){
+  recuadro.className = "contactodiv"
+  
+}
+else{
+  recuadro.className = "Contactoocultar"
+}
+})
+cerrar.addEventListener("click", () => {
+  if(recuadro.className == "Contactoocultar"){
+    recuadro.className = "Contactoocultar contactodiv"
+    
+  }
+  else{
+    recuadro.className = "Contactoocultar"
+  }
+})

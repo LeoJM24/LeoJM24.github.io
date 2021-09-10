@@ -3,6 +3,10 @@
 }
 :root{
     --color-primario: black;
+    --proyectosfondo:  rgba(241, 181, 70, 0.623);
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-image: url("../Imagenes/cajafuerte.jpg");
@@ -265,193 +269,12 @@ body{
     min-height: 100px;
     width: 100%;
 }
-.contenido{
-    height: 1000px;
-    width: 100%;
-  z-index: 99;
-}
-.datos{
-    z-index: 99;
-    margin: auto;
-    width: 70%;
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.24);
-    display: grid;
-    grid-template-areas: "line1"
-                        "line2"
-                        "line3";
-                        grid-template-rows: 0.4fr 1fr 1fr;
-}
-.line1{
-    grid-area:line1;
-    display: grid;
-    grid-template-areas: "proy subs";
-    grid-template-columns: 1fr 0.3fr;
-    height: 100%;
-}
-.proyectos{
-    margin: auto;
-    margin-left: 57%;
-    grid-area: proy;
-}
-.submenu{
-    margin: auto;
-    margin-left: 70%;
-    grid-area: subs;
-}
-.line2{
-    grid-area:line2;
-    display: grid;
-    grid-template-areas: "p1 p2 p3 p4";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 220px;
-    gap: 5px;
-}
-.proyecto1{
-    grid-area:p1;
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    border: solid 1px #f16529ff;
-    border-radius: 15px;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    background-color: black;
-}
-.proyecto2{
-    grid-area:p2;
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    border: solid 1px #f16529ff;
-    border-radius: 15px;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    background-color: black;
-}
-.proyecto3{
-    grid-area:p3;
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    border: solid 1px #f16529ff;
-    border-radius: 15px;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    background-color: black;
-}
-.proyecto4{
-    grid-area:p4;
-    margin: auto;
-    width: 90%;
-    height: 100%;
-    border: solid 1px #f16529ff;
-    border-radius: 15px;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    background-color: black;
-}
-/* Geader*/ 
-.descripcion{
-    width: 100%;
-    height: 20%;
-    font-family: cooper;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #f16529ff;
-    color: white;
-    font-size: 20px;
-}
-.line2 img{
-    width: 100%;
-    height: 60%;
-    margin: auto auto;
-}
-.line3{
-    grid-area:line3;
-    height: 100px;
-    display: grid;
-    grid-template-areas: "b1 b2 b3 b4";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 180px;
-    gap: 5px;
-}
-.contenido div{
-    z-index: 19;
-}
-.botones1{
-    grid-area: b1;
-    margin: auto;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 10px;
-}
-input[type="button"]{
-    width: 60%;
-    height: 30px;
-    color: rgb(255, 255, 255);
-    border: solid 3px black;
-    border-radius: 20px;
-    cursor: pointer;
-    user-select: none;
-    background-color: #1b95c1ff;
-}
-input[type="button"]:hover{
-   
-    background-color: rgb(23, 123, 160);
-}
-.botones2{
-    grid-area: b2;
-    margin: auto;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 10px;
-}
-.botones3{
-    grid-area: b3;
-    margin: auto;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 10px;
-}
-.botones4{
-    grid-area: b4;
-    margin: auto;
-    width: 90%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    gap: 10px;
-}
+
 .carruselcontent .container .carousel{
     height: 125px;
     width: 100%;
 }
-.carruselcontent .carousel .carousel-item{
+.carruselcontent .carousel  .carousel-item{
     color: rgb(255, 255, 255);
     width: 90px;
     height: 90px;
@@ -463,6 +286,11 @@ input[type="button"]:hover{
     flex-direction: column;
     user-select: none;
     
+}
+.contentvideo{
+    width: 70%;
+    margin: auto;
+    height: 400px;
 }
 .carruselcontent .carousel .indicators .indicator-item{
     margin: 0 30px;
@@ -491,7 +319,7 @@ footer{
     height: 40px;
     color: white;
     background-color: black;
-    font-family: cooper;
+    font-family: arial;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,7 +333,7 @@ footer{
     height: 100%;
     color: white;
     background-color: black;
-    font-family: cooper;
+    font-family: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -513,14 +341,261 @@ footer{
     font-size: 15px;  
     z-index: 99;
 }
-.contentvideo{
-    width: 70%;
-    margin: auto;
-    height: 400px;
+.arriba{
+    position: fixed;
+    background-image: url("../Imagenes/FLECHA.png");
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    top: 80%;
+    z-index: 19;
+    margin-left: 88%;
+    transition: all ease 4s;
 }
-.otros{
+.ocultar{
+    display: none;
+    transition: all ease 4s;
+}
+.contenedor2{
     width: 70%;
-    border: 1px solid black;
+    height: auto;
+    background-color: rgba(2, 1, 1, 0.191);
     margin: auto;
+    z-index: 1;
+    display: grid;
+    grid-template-areas: "line1"
+                        "line2"
+                        "line3";
+}
+.line1{
+    display: grid;
+    grid-template-areas: "ps ps ps ps"
+                        "p1 p2 p3 p4"
+                        "b1 b2 b3 b4";
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 0.3fr 1fr 1fr;
+background-color: rgba(0, 0, 0, 0.555);
+}
+.p1{
+    grid-area: p1;
+    width: 80%;
     height: 200px;
+    margin: auto;
+    border: 1px solid rgb(219, 132, 18);
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--proyectosfondo);
+z-index: 19;
+}
+.p2{
+    grid-area: p2;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid rgb(219, 132, 18);
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--proyectosfondo);
+    z-index: 19;
+}
+.p3{
+    grid-area: p3;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid rgb(219, 132, 18);
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--proyectosfondo);
+    z-index: 19;
+}
+.p4{
+    grid-area: p4;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border: 1px solid rgb(219, 132, 18);
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: var(--proyectosfondo);
+    z-index: 19;
+}
+.b1{
+    grid-area: b1;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b2{
+    grid-area: b2;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+   
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b3{
+    grid-area: b3;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+   
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.b4{
+    grid-area: b4;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Proyectos{
+    font-size: 20px;
+    color: white;
+    font-family: cooper;
+    grid-area: ps;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input[type="button"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 4px rgb(219, 132, 18) solid;
+    height: 25%;
+    background-color: rgba(219, 132, 18, 0.417);
+    color:rgb(219, 132, 18);
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: cooper;
+    z-index: 19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.descripcion{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(219, 132, 18);
+    font-size: 12px;
+    color: white;
+    font-family: cooper;
+   user-select: none;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.line1 img{
+    width: 100%;
+    height: 60%;
+    z-index: 19;
+}
+.line2{
+    width: 100%;
+    height: 500px;
+}
+.line3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.otrosproyectos{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.otrosproyectos input[type="button"]{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.contactodiv{
+position: fixed;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    height: 200px;
+    backdrop-filter: blur(10px);
+    z-index: 20;
+    border-radius: 20px;
+    border: #d5f6ff9f solid 2px;
+    transition: 300ms all ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    user-select: none;
+}
+.Contactoocultar{
+    display: none;
+    width: 10%;
+    height: 10px;
+    
+}
+.wss, .tl, .ins{
+    color: steelblue;
+    font-size: 19px;
+    font-family: cooper;
+}
+.contactodiv a{
+    color: white;
+    user-select: none;
+}
+.cerrar{
+    background-color: rgba(241, 36, 0, 0.308);
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px red dashed;
+}
+.cerrar:hover{
+    background-color: rgba(255, 0, 0, 0.589);
 }
