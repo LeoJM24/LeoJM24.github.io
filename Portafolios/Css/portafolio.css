@@ -563,7 +563,7 @@ position: fixed;
     backdrop-filter: blur(10px);
     z-index: 20;
     border-radius: 20px;
-    border: #d5f6ff9f solid 2px;
+    border: #d5f6ff9f dashed 3px;
     transition: 300ms all ease;
     display: flex;
     flex-direction: column;
@@ -573,6 +573,8 @@ position: fixed;
     font-size: 14px;
     color: white;
     user-select: none;
+    text-shadow: rgb(8, 6, 1) 2px 2px;
+
 }
 .Contactoocultar{
     display: none;
