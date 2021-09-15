@@ -259,9 +259,7 @@ On.addEventListener("click", () => {
     swal.fire({
       title: "Has desactivado las partículas exitosamente",
       confirmButtonText: "Aceptar",
-      imageUrl: '../Imagenes/completo.png',
-      imageWidth: 100,
-  imageHeight: 100,
+      icon: "error",
     })
   }
   else{
@@ -271,9 +269,7 @@ On.addEventListener("click", () => {
     swal.fire({
       title: "Se han reactivado las partículas nuevamente",
       confirmButtonText: "Aceptar",
-      imageUrl: '../Imagenes/completo.png',
-      imageWidth: 100,
-  imageHeight: 100,
+      icon: "success",
     })
   }
   activar()
