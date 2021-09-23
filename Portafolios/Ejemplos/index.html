@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de ejemplos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="Css/materialize.min.css">
+    <link rel="stylesheet" href="Css/video-js.css">
+    
+    <link rel="stylesheet" href="Css/Ejemplos.css">
+    
+
+</head>
+<body>
+   
+    <header><nav class="nav">
+        <img loading="lazy" src="Imagenes/completo.png" alt="">
+        <a  href="https://LeoJM24.github.io/Portafolios/">Inicio</a>
+        <a id="Contacto" href="#">Contacto</a>
+        <a target="_blank" href="https://github.com/LeoJM24">Repositorios</a>
+    </nav></header>
+    <div class="banner">
+        <h1 class="h1">Estos son algunos ejemplos prácticos de mi trabajo.</h1>
+        <img loading="lazy" src="Imagenes/completo.png" alt=""></div>
+    <h2 class="h2">Ejemplo 1: Formularios</h2>
+    <div class="contenedor">
+        <div class="contenedorformulario">
+            
+            <form action="" class="formulario" id="formulario">
+                <h2 class="h2">Completa los datos</h2>
+                <div class="datos" id="datos">
+                    <label for="Nombre" id="LNombre" class="LNombre">Nombre:</label>
+                    <input type="text" name="Nombre" id="Nombre" class="Nombre">
+                    <label for="Apellido" id="LApellido" class="LApellido">Apellido:</label>
+                    <input type="text" name="Apellido" id="Apellido" class="Apellido">
+                    <label for="Correo" id="LCorreo" class="LCorreo">Correo:</label>
+                    <input type="email" name="Correo" id="Correo" class="Correo">
+                    <label for="Contraseña" id="LContraseña" class="LContraseña">Contraseña:</label>
+                    <input type="password" name="Contraseña" id="Contraseña" class="Contraseña">
+                    <label for="Repetir" id="LRepetir" class="LRepetir">Repetir contraseña:</label>
+                    <input type="password" name="Repetir" id="Repetir" class="Repetir">
+                </div>
+                <div class="fecha" id="fecha">
+                    <label for="Dia" id="LDia" class="LDia">Dia:</label>
+                    <input type="number" name="Dia" id="Dia" class="Dia">
+                    <label for="Mes" id="LMes" class="LMes">Mes:</label>
+                    <input type="number" name="Mes" id="Mes" class="Mes">
+                    <label for="Año" id="LAño" class="LAño">Año:</label>
+                    <input type="number" name="Año" id="Año" class="Año">
+                </div>
+                <div class="sexo" id="sexo">
+                    <label for="Hombre" id="LHombre" class="LHombre">Hombre:</label>
+                    <input type="radio" name="Hombre" id="Hombre" class="Hombre">
+                    <label for="Mujer" id="LMujer" class="LMujer">Mujer:</label>
+                    <input type="radio" name="Mujer" id="Mujer" class="Mujer" class="with-gap">
+                   
+                </div>
+                <div class="terminos" id="terminos">
+                    <label for="vterminos" class="LTerm">Términos y condiciones:  </label>
+                    <input type="checkbox" name="vterminos" id="vterminos">
+                </div>
+                <div class="generada" id="generada">
+                    <label for="MAYUS" class="May">Mayúsculas:</label>
+                    <input type="checkbox" class="IMay" name="MAYUS" id="MAYUS">
+                    <label for="Minus" value="true" class="Min">Minúsculas:</label>
+                    <input type="checkbox" name="Minus" class="IMin" id="Minus">
+                    <label for="Números" class="Num">Números:</label>
+                    <input type="checkbox" name="Números" class="INum" id="Números">
+                    <label for="Cantidad" class="Cant">Cantidad:</label>
+                    <input type="number" name="Cantidad" value="8" class="ICant" id="Cantidad" class="Cantidad">
+
+                </div>
+                <input type="button" value="Generar clave" class="button" name="button">
+                <input type="text" name="Generada" id="Generada" class="Generada" placeholder="Clave no generada" readonly>
+                <input type="submit" value="Registrarse" class="submit">
+            </form>
+        </div>
+        <div class="descripcion">
+            <h2 class="h2">Validación de formularios</h2>
+           <p>Por favor, rellena el formulario que se muestra a continuación. No contiene base de datos, por lo que tus datos no se guardarán en ningún sitio, pero permitirá mostrar una validación simple. De ser posible, ingresa algunos datos erróneos, presiona el botón "Registrarse" con los campos vacíos o intenta ingresar una fecha dónde indiques que eres menor de edad. </p>
+           <p>Fue creado enteramente con HTML, CSS y JAVASCRIPT nativos, haciendo uso de propiedades de ECMASCRIPT, CSS-GRID y variables CSS. </p>
+            <p>También se implementó el uso de expresiones regulares sencillas, que permiten realizar una validación de todos los campos correctamente, verificando que los datos ingresados por el usuario sean correctos.</p>
+            <p>const Expresiones = { <br>
+                nombre: /^[a-zA-Z]{4,16}$/, <br>
+                password: /^[a-zA-Z0-9\_\-]{6,20}$/, <br>
+                correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]/, <br>
+                Dia: /^[0-9]{1,2}$/, <br>
+                Año: /^[0-9]{4,4}$/<br>
+            }</p>
+            <p>El uso de condicionales, funciones switch y métodos forEach son importantes en la validación de este formulario a la hora de que el código sea optimizado.</p>
+            <p>Para la realización de las claves aleatorias, se hizo uso de un ciclo for, para iterar sobre un objeto con cada una de las propiedades que contienen cada valor de letras, números y símbolos. Posteriormente, las funciones Math.floor y Math.random recorren todo un ARRAY y extraen valores al azar, dependiendo de la cantidad especificada en el input de tipo número.</p>
+            <p>const GenerarClave = () => {<br>
+                CaracteresTotales = "";<br>
+                GenerarAqui = "";<br>
+                todos.Clave = true;<br>
+                for (Propiedad in Conf){<br>
+                    if(Conf[Propiedad] == true){<br>
+                        CaracteresTotales += Caracteres[Propiedad] + " ";<br>
+                        console.log(CaracteresTotales);<br>
+                    }<br>
+                    <br>
+                }<br>
+                CaracteresTotales = CaracteresTotales.trim();<br>
+                    CaracteresTotales = CaracteresTotales.split(" ");<br>
+                    console.log(CaracteresTotales);<br>
+                    for(i=0; i  parseInt(Conf.Cantidad.value); i++){<br>
+                        GenerarAqui += CaracteresTotales[Math.floor(Math.random() * CaracteresTotales.length)];<br>
+                        <br>
+                    }<br>
+                    document.getElementById("Generada").value = GenerarAqui;<br>
+                    document.getElementById("Generada").select();<br>
+                    document.execCommand("copy");<br>
+                    swal.fire({<br>
+                        title: "Clave copiada en el portapapeles",<br>
+                        timer: 5000,<br>
+                        toast: true,<br>
+                        position: "bottom-end",<br>
+                        confirmButtonText: "Aceptar",<br>
+                        icon: "success",<br>
+                        html: GenerarAqui<br>
+               </p>
+        </div>
+    </div>
+    <h2 class="h2">Ejemplo 2: Carrusel</h2>
+    <div class="contenedor">
+        <div class="contenedorformulario">
+            <div class="carrusel1">
+                <div class="carrusel1-1">
+                    <img src="Imagenes/LeoJM.png"  id="imagen2" alt="">
+                </div>
+            </div>
+            <div class="carrusel2">
+                <div class="ant" id="ant"><img src="Imagenes/ANT.png" alt=""></div>
+                <div class="imagen" ><img src="Imagenes/LeoJM.png" id="imagen" alt=""></div>
+                <div class="sig" id="sig"><img src="Imagenes/SIG.png" alt=""></div>
+            </div>
+            <div class="carrusel3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            
+            
+                            <div class="carousel center-align">
+                                <div class="carousel-item " >
+                                    
+                                    <img src="Imagenes/LeoJM.png" alt="">
+                                </div>
+                                <div class="carousel-item " >
+                                    
+                                    <img src="Imagenes/Desarrollo.png" alt="">
+                                </div>
+                                <div class="carousel-item " >
+                                    
+                                    <img src="Imagenes/Imaginacion.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="descripcion">
+            <h2 >Carruseles automáticos y estáticos.</h2>
+            <p>Estos carruseles se ejecutan de tres formas diferentes. El primero está programado para realizar transiciones automáticas, mientras que el segundo y tercero esperan a que el usuario realice una interacción con ellos. Los tres son infinitos, por lo que cada presentación podrá mostrarse todo el tiempo que el sitio web lo requiera.</p>
+            <p>Los dos primeros tienen una programación muy sencilla, la cuál no le exige mucho rendimiento al sitio web. Esta programación hace que cada carrusel entre en bucle mediante variables cuyo valor es un número y al presionarse un botón, su valor aumenta o decrementa según se necesite o hasta que el tiempo especificado así lo determine.</p>
+            <p>El tercer carrusel utiliza una librería de "Materialize", omitiendo el resto de estilos que le otorga sus propiedades a todo el sitio web. Solo se tomó el fragmento de código que controla el carrusel. Estas propiedades son ideales para páginas publicitarias, de comida u hotelería según se convenga, pues su diseño práctico y de bajo consumo de resursos es ideal para una buena experiencia del usuario.</p>
+    
+        </div>
+    </div>
+    <h2 class="h2">Ejemplo 3: Partículas</h2>
+    <div class="contenedor">
+        <div class="contenedorformulario">
+            <div class="particulas" id="particles-js"></div>
+        </div>
+        <div class="descripcion">
+            <h2>Partículas JS</h2>
+            <p>Partículas JS es una librería de dominio público. Esta permite darle vida a tus sitios web con efectos controlables de bajo consumo para el rendimiento de tu sitio web.</p>
+            <p>Este control se te otorga mediante el archivo "Particles-JS" con cada una de las propiedades que puedes o quieras utilizar. </p>
+            <p>Su uso es muy similar al de materialize, con la diferencia de que esta librería se centra únicamente en la creación y control de partículas dentro de un sitio web. Pueden agregarse en cualquier parte que se desee personalizar</p>
+            <p>El control de las partículas es muy simple y se muestra a continuación:</p>
+            <p>  particlesJS(
+                {
+                    "particles": false, <br>
+                      "number": {<br>
+                        "value": 0,<br>
+                        "density": {<br>
+                          "enable": false,<br>
+                          "value_area": 40<br>
+                          <br>
+                      },<br>
+                      "color": {<br>
+                        "value": "#c010a1"<br>
+                      },<br>
+                      "shape": {<br>
+                        "type": "edge",<br>
+                        "stroke": {<br>
+                          "width": 3,<br>
+                          "color": "#f521f5"<br>
+                        },<br>
+                        "polygon": {<br>
+                          "nb_sides": 5<br>
+                        },<br>
+                        "image": {<br>
+                          "src": "img/github.svg",<br>
+                          "width": 100,<br>
+                          "height": 100<br>
+                        }<br>
+                      },<br>
+                      "opacity": {<br>
+                        "value": 0.5,<br>
+                        "random": false,<br>
+                        "anim": {<br>
+                          "enable": false,<br>
+                          "speed": 1,<br>
+                          "opacity_min": 0.1,<br>
+                          "sync": false<br>
+                        }<br>
+                      },<br>
+                      "size": {<br>
+                        "value": 5,<br>
+                        "random": false,<br>
+                        "anim": {<br>
+                          "enable": false,<br>
+                          "speed": 0,<br>
+                          "size_min": 0.1,<br>
+                          "sync": false<br>
+                        }<br>
+                      },<br>
+                      "line_linked": {<br>
+                        "enable": false,<br>
+                        "distance": 150,<br>
+                        "color": "#ffffff",<br>
+                        "opacity": 0.24,<br>
+                        "width": 2<br>
+                      },<br>
+                      "move": {<br>
+                        "enable": false,<br>
+                        "speed": 4,<br>
+                        "direction": "none",<br>
+                        "random": true,<br>
+                        "straight": false,<br>
+                        "out_mode": "out",<br>
+                        "bounce": false,<br>
+                        "attract": {<br>
+                          "enable": false,<br>
+                          "rotateX": 600,<br>
+                          "rotateY": 1200<br>
+                        }<br>
+                      }<br>
+                    },<br>
+                    "interactivity": {<br>
+                      "detect_on": "canvas",<br>
+                      "events": {<br>
+                        "onhover": {<br>
+                          "enable": false,<br>
+                          "mode": "grab"<br>
+                        },<br>
+                        "onclick": {<br>
+                          "enable": false,<br>
+                          "mode": "remove"<br>
+                        },<br>
+                        "resize": false<br>
+                      },<br>
+                      "modes": {<br>
+                        "grab": {<br>
+                          "distance": 400,<br>
+                          "line_linked": {<br>
+                            "opacity": 1<br>
+                          }<br>
+                        },<br>
+                        "bubble": {<br>
+                          "distance": 0,<br>
+                          "size": 00,<br>
+                          "duration": 2,<br>
+                          "opacity": 8,<br>
+                          "speed": 3<br>
+                        },<br>
+                        "repulse": {<br>
+                          "distance": 0,<br>
+                          "duration": 0<br>
+                        },<br>
+                        "push": {<br>
+                          "particles_nb": 0<br>
+                        },<br>
+                        "remove": {<br>
+                          "particles_nb": 0<br>
+                        }<br>
+                      }<br>
+                    },<br>
+                    "retina_detect": true<br>
+                  }<br>
+            )<br>
+            }
+        </p>
+        </div>
+    </div>
+    <h2 class="h2">Ejemplo 4: Vídeo JS</h2>
+    <div class="contenedor">
+        <div class="contenedorformulario">
+            <video loading="lazy" class="video video-js vjs-big-play-centered"  controls id="fm-video">
+                <source loading="lazy" src="Videos/Pagina.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="descripcion">
+            <h2>Video JS</h2>
+            <p>Vídeo JS es otra librería muy práctica y sencilla de usar. Permite personalizar nuestro propio reproductor a nuestro antojo, manipulando botones, barras, tiempo de carga, el control de volumen y un montón de propiedades más.</p>
+            <p>Consta de dos archivos. El control en Javascript y un archivo CSS para personalizar los estilos por defecto. El resto consiste en agregar un archivo de vídeo común a la etiqueta VIDEO en el html, para posteriormente agregar las clases correspondientes a la librería.</p>
+            <p>Es excelente a la hora de mostrar contenido audiovisual dentro de un sitio web, sin tener que depender de reproductores externos o que consuman mayor rendimiento.</p>
+        </div>
+    </div>
+    <script src="Js/video.min.js"></script>
+    <script src="Js/particles.min.js"></script>
+    <script src="Js/app.js"></script>
+    <script src="Js/form.js"></script>
+    <script src="Js/carrusel.js"></script>
+    <script src="Js/materialize.min.js"></script>
+    <script src="Js/ControlAlerta.js"></script>
+    <script>
+        var video = videojs("fm-video", {
+        
+    })
+    </script>
+    <footer>LeoJM - copyrigth - 2021</footer>
+</body>
+</html>

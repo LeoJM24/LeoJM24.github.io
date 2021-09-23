@@ -5,6 +5,7 @@ const mostrar = document.getElementById("mostrar");
 const recuadro = document.getElementById("ContactOcultar");
 const cerrar = document.getElementById("cerrar");
 const resumen = document.getElementById("resumen");
+const resumen2 = document.getElementById("resumen2");
 const habilidades = document.getElementById("cuadrohabilidades")
 const cerrarh = document.getElementById("cerrarh");
 const sig = document.getElementById("sig");
@@ -350,6 +351,9 @@ resumen.addEventListener("click", () => {
   else{
     habilidades.className = "Contactoocultar"
   }
+})
+resumen2.addEventListener("click", () => {
+location.href = "../Ejemplos/index.html"  
 })
 cerrarh.addEventListener("click", () => {
   if(habilidades.className == "Contactoocultar"){

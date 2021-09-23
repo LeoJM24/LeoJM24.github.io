@@ -18,7 +18,7 @@ body{
 body::-webkit-scrollbar{
     background-color: rgb(0, 0, 0);
     width: 10px;
-    border: 1px dashed rgb(75, 1, 50);
+    border-left: 1px dashed rgb(75, 1, 50);
 }
 body::-webkit-scrollbar-thumb{
     background-color: rgb(92, 1, 61);
@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar:hover{
     background-color: rgb(32, 2, 16);
     width: 10px;
-    border: 1px dashed rgb(211, 5, 139);
+    border-left: 1px dashed rgb(211, 5, 139);
 }
 body::-webkit-scrollbar-thumb:hover{
     background-color: rgb(255, 0, 170);
