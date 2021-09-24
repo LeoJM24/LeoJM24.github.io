@@ -353,7 +353,7 @@ resumen.addEventListener("click", () => {
   }
 })
 resumen2.addEventListener("click", () => {
-location.href = "../Ejemplos/index.html"  
+location.href = "https://leojm24.github.io/Portafolios/Ejemplos/"  
 })
 cerrarh.addEventListener("click", () => {
   if(habilidades.className == "Contactoocultar"){
