@@ -1,0 +1,94 @@
+@media screen and (max-width:800px){
+    .cursos{ 
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "e1" "e2""e3";
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .elegir1{
+        grid-area: e1;
+        background: #00222bff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+        height: 300px;
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+    }
+    .elegir2{
+        grid-area: e2;
+        background: #00222bff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+        height: 300px;
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+    }
+    .elegir3{
+        grid-area: e3;
+        background: #00222bff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+        height: 300px;
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+    }
+    table a{
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    }
+    .fondo{
+        background-image: url("../Imagenes/venezuela.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50% 40%;
+        background-clip: text;
+        font-family: 'Bebas Neue', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        color: rgba(255, 255, 255, 0.11);
+        font-size: 60px;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+      
+    }
+}
